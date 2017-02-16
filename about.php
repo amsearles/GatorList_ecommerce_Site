@@ -17,21 +17,14 @@ left:500px;
 top:40px;
 color:#000000;
 }
-                 body {
-                     
-  
-    background-image:url(images/Assassin.jpg);
-      background-size:1400px 900px ; 
-    background-repeat: no-repeat;
-}
+     
         li{
         display: inline;
         }
         div.fixed {
-    position: fixed;
     bottom: 300px;
     left: 250px;
-    width: 400px;
+    width:500px;
     border: 7px solid #282121;
 }
         </style>
@@ -41,12 +34,14 @@ color:#000000;
     </div>
             </div>
         </nav>
+        <h1>About Page</h1>
         <div>
             <div class = "fixed">
-               <font size="5"> Hin Vong goes to San Francisco State University </font>
-                
-                
+               <font size="5"> Hin Vong goes to San Francisco State University. </font>
+               <font size="5"> I major in Computer Science at SFSU. </font>
+               <font size="5"> My Hobbies are video games and Tennis </font>
             </div>
         </div>
     </body>
 </html>
+
