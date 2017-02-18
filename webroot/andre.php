@@ -61,7 +61,7 @@
                                     <table>
                                         <tr>
                                         <td>
-                                            <a href="andre.php">
+                                            <a href="about.php">
                                                 <img src="./img/AS.jpg" class="personal_page_photos"  ></a>
                                                 <div class="details">
                                                     <span class="name" >Andre Simpelo</span><br>

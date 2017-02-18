@@ -38,6 +38,7 @@
         <ul class="nav navbar-nav">
           <li class=""><a href="index.php">Home</a></li>
           <li class = "active"><a href="about.php">About</a></li>
+          <li class=""><a href = "index.php"><em class="">Buy & Sell SFSU TextBooks</em></a></li>
           </ul>
       </div><!--/.nav-collapse -->
     </div>
@@ -62,7 +63,7 @@
                                     <table>
                                         <tr>
                                         <td>
-                                            <a href="about_team.php">
+                                            <a href="about.php">
                                                 <img src="./img/searles.jpg" class="photo"  ></a>
                                                 <div class="details">
                                                     <span class="name" >Anthony Searles</span><br>

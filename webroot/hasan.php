@@ -37,7 +37,7 @@
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
           <li class=""><a href="index.php">Home</a></li>
-          <li class = "active"><a href="about.phpp">About</a></li>
+          <li class = "active"><a href="about.php">About</a></li>
           <li class=""><a href = "index.php"><em class="">Buy & Sell SFSU TextBooks</em></a></li>
           </ul>
       </div><!--/.nav-collapse -->
