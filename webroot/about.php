@@ -69,7 +69,7 @@
                                                 </div>
                                         </td>
                                         <td>
-                                            <a href="about.php">
+                                            <a href="hasan.php">
                                                 <img src="./img/HN.jpg" class="photos"></a>
                                                 <div class="details">
                                                     <span class="name" >Hasan Niftiyev</span><br>

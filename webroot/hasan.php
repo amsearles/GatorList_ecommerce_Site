@@ -37,7 +37,7 @@
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
           <li class=""><a href="index.php">Home</a></li>
-          <li class = "active"><a href="about.php">About</a></li>
+          <li class = "active"><a href="about_team.php">About</a></li>
           <li class=""><a href = "index.php"><em class="">Buy & Sell SFSU TextBooks</em></a></li>
           </ul>
       </div><!--/.nav-collapse -->
@@ -56,6 +56,24 @@
 		<div class="container">
 			<div class="left" style="text-align: center">	
                             <h1> Team 11 - 648 Software Engineering Project - Spring 17</h1>
+				<div class="imageWrapper">  
+                                    <center>
+                                    <table>
+                                        <tr>
+                                        <td>
+                                            <a href="about_team.php">
+                                                <img src="./img/HN.jpg" class="personal_page_photos"  ></a>
+                                                <div class="details">
+                                                    <span class="name" >Hasan Niftiyev</span><br>
+                                                    <span class="personal">Computer Scienctist, Mathematician, Martial Artist</span>
+                                                </div>
+                                        </td>
+                                       
+                                        </tr>
+                                       
+                                    </table>
+                                    </center>
+				</div>
 				
 		
                   	</div>
