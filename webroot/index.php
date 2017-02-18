@@ -56,6 +56,8 @@
 		<div class="container">
 			<div class="left" style="text-align: center">	
                             <h1> Team 11 - 648 Software Engineering Project - Spring 17</h1>
+                            <a href="index.php">
+                                                <img src="./img/programming.gif" class="personal_page_photos"  ></a>
 				
 		
                   	</div>
