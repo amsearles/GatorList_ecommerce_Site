@@ -95,7 +95,7 @@
                                                 </div>
                                         </td>
                                         <td>
-                                            <a href="about.php">
+                                            <a href="andre.php">
                                                 <img src="./img/AS.jpg" class="photos"></a>
                                                 <div class="details">
                                                     <span class="name" >Andre Simpelo</span><br>
