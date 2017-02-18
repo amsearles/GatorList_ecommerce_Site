@@ -14,13 +14,13 @@
         <link rel="apple-touch-icon" sizes="114x114" href="/bootstrap/img/apple-touch-icon-114x114.png">
         
 <head>
-	<title>About</title>
-	
-	<!--<link rel="stylesheet" type="text/css" href="buttons.css">
-	<link rel="stylesheet" type="text/css" href="images.css">-->
+  <title>ZDR</title>
+  
+  <!--<link rel="stylesheet" type="text/css" href="buttons.css">
+  <link rel="stylesheet" type="text/css" href="images.css">-->
 </head>
 
-	
+  
     <div id="wrap">
   
   <!-- Fixed navbar -->
@@ -48,26 +48,24 @@
  </div> 
 
     
-<body>	
-    <div class="doit">
+<body>  
+    <div class="hello">
         
     </div>
-	<section>
-		<div class="container">
-			<div class="left" style="text-align: center">	
-                            <h1> </h1>
-                            <h2>About Anthony Searles</h2>
-                            
-				<div class="imageWrapper">  
+  <section>
+    <div class="container">
+      <div class="left" style="text-align: center"> 
+                            <h1> Team 11 - 648 Software Engineering Project - Spring 17</h1>
+        <div class="imageWrapper">  
                                     <center>
                                     <table>
                                         <tr>
                                         <td>
                                             <a href="about.php">
-                                                <img src="./img/searles.jpg" class="photo"  ></a>
+                                                <img src="./img/searles.jpg" class="personal_page_photos"  ></a>
                                                 <div class="details">
                                                     <span class="name" >Anthony Searles</span><br>
-                                                    <span class="info">Born in San Francisco, Computer Science major at SFSU</span>
+                                                    <span class="personal">Born in San Francisco, Computer Science major at SFSU</span>
                                                 </div>
                                         </td>
                                        
@@ -75,20 +73,21 @@
                                        
                                     </table>
                                     </center>
-				</div>
-				
-		
-                  	</div>
-             		
-				</div><br>
+        </div>
+        
+    
+                    </div>
+                
+        </div><br>
                
-			
-			<div class="right">
-				
-			</div>
-		
-	</section>
+      
+      <div class="right">
+        
+      </div>
+    
+  </section>
     </body>
   
 
 </html>
+
