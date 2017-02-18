@@ -73,7 +73,7 @@
                                                 <img src="./img/HN.jpg" class="photos"></a>
                                                 <div class="details">
                                                     <span class="name" >Hasan Niftiyev</span><br>
-                                                    <span class="personal">Core Member </span>
+                                                    <span class="personal">Leader </span>
                                                 </div>
                                         </td>
                                         <td>
