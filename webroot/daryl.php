@@ -112,7 +112,7 @@ code {
                   <tbody>
                       <tr>
                           <td> <img style='height:400px; width:400px' src="http://i.imgur.com/fcjW6OY.png"/>
-                              <a href="http://sfsuse.com/~sp17g11/t11/about_team.php"></a>
+                              <a href="about.php"></a>
                               <div class ="details">
                                   <span class="name"> Daryl Robbin </span>
                                   <br>

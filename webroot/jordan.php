@@ -61,7 +61,7 @@
                                     <table>
                                         <tr>
                                         <td>
-                                            <a href="about_team.php">
+                                            <a href="about.php">
                                                 <img src="./img/linkedin.jpg" class="personal_page_photos"  ></a>
                                                 <div class="details">
                                                     <span class="name" >Jordan Scandlyn</span><br>
