@@ -65,7 +65,7 @@
                                                 <img src="./img/linkedin.jpg" class="personal_page_photos"  ></a>
                                                 <div class="details">
                                                     <span class="name" >Jordan Scandlyn</span><br>
-                                                    <span class="personal">Grew up in Menlo Park</span>
+                                                    <span class="personal">Grew up in Menlo Park - Since '94</span>
                                                 </div>
                                         </td>
                                        

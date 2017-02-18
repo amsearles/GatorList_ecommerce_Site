@@ -65,15 +65,15 @@
                                                 <img src="./img/linkedin.jpg" class="photos"  ></a>
                                                 <div class="details">
                                                     <span class="name" >Jordan Scandlyn</span><br>
-                                                    <span class="personal">Since '94</span>
+                                                    <span class="personal">CTO</span>
                                                 </div>
                                         </td>
                                         <td>
                                             <a href="about.php">
-                                                <img src="./img/belli.jpg" class="photos"></a>
+                                                <img src="./img/HN.jpg" class="photos"></a>
                                                 <div class="details">
                                                     <span class="name" >Hasan Niftiyev</span><br>
-                                                    <span class="personal">Filler text til y'all decide on if this is even right design </span>
+                                                    <span class="personal">Core Member </span>
                                                 </div>
                                         </td>
                                         <td>
@@ -81,7 +81,7 @@
                                                 <img src="http://i.imgur.com/fcjW6OY.png" class="photos"></a>
                                                 <div class="details">
                                                     <span class="name" >Daryl Robbin</span><br>
-                                                    <span class="personal">Filler text</span>
+                                                    <span class="personal">GitHub Admin</span>
                                                 </div>
                                         </td>
                                         </tr>
@@ -91,15 +91,15 @@
                                                 <img src="./img/searles.jpg" class="photos"  ></a>
                                                 <div class="details">
                                                     <span class="name" >Anthony Searles</span><br>
-                                                    <span class="personal">Here is some filler text </span>
+                                                    <span class="personal">Core Member </span>
                                                 </div>
                                         </td>
                                         <td>
                                             <a href="about.php">
-                                                <img src="./img/belli.jpg" class="photos"></a>
+                                                <img src="./img/AS.jpg" class="photos"></a>
                                                 <div class="details">
                                                     <span class="name" >Andre Simpelo</span><br>
-                                                    <span class="personal">This is filler text</span>
+                                                    <span class="personal">Core Member</span>
                                                 </div>
                                         </td>
                                         <td>
@@ -107,7 +107,7 @@
                                                 <img src="./img/Hin.jpg" class="photos"></a>
                                                 <div class="details">
                                                     <span class="name" >Hin Vong</span><br>
-                                                    <span class="personal">Filling space til we come up with good idea </span>
+                                                    <span class="personal">Core Member </span>
                                                 </div>
                                         </td>
                                         </tr>
