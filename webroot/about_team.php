@@ -77,8 +77,8 @@
                                                 </div>
                                         </td>
                                         <td>
-                                            <a href="about.php">
-                                                <img src="./img/belli.jpg" class="photos"></a>
+                                            <a href="daryl.php">
+                                                <img src="http://i.imgur.com/fcjW6OY.png" class="photos"></a>
                                                 <div class="details">
                                                     <span class="name" >Daryl Robbin</span><br>
                                                     <span class="personal">Filler text</span>
@@ -87,8 +87,8 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                            <a href="about.php">
-                                                <img src="./img/belli.jpg" class="photos"  ></a>
+                                            <a href="searles.php">
+                                                <img src="./img/searles.jpg" class="photos"  ></a>
                                                 <div class="details">
                                                     <span class="name" >Anthony Searles</span><br>
                                                     <span class="personal">Here is some filler text </span>
@@ -104,7 +104,7 @@
                                         </td>
                                         <td>
                                             <a href="hin.php">
-                                                <img src="./img/belli.jpg" class="photos"></a>
+                                                <img src="./img/Hin.jpg" class="photos"></a>
                                                 <div class="details">
                                                     <span class="name" >Hin Vong</span><br>
                                                     <span class="personal">Filling space til we come up with good idea </span>
