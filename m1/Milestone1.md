@@ -6,7 +6,7 @@
 #EXTRA INFORMATION FOR MARKDOWN VISIT DILLINGER.IO
 
 
-##JORDAN
+##JORDAN SCANDLYN
 Executive Summary: Short description of the final product/application and its key advantages, novelty, value (up to 1 page). Make it as an executive summary – think of answering the question of why we should fund this project. We suggest you assign a name to your project for easier reference and good “marketing”.  This summary should be readable to a general manger/executive who is not a CS specialist and is used to explain and also to advertise/promote your project. At the end say in one paragraph a something about your team (e.g. about your student startup team…).
 
 
