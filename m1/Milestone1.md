@@ -16,7 +16,7 @@ Executive Summary: Short description of the final product/application and its ke
 ##HASAN
 Data Definition -  define main terms and “things” or “entities” at high or logical (not implementation) level (e.g. name, meaning, usage, and NOT how the data is stored in memory) so it is easier to refer to them in the document. Focus on key terms (main data elements, actors, types of users etc.) specific for this application and not on general, well know terms. These terms and their names must be used consistently from then on in all documents, user interface, in naming SE components and database elements etc. In later milestones you will add more implementation details for each item. You will later expand this section with more details
 
-##ANTHONY
+##ANTHONY Yolo-test
 Initial list of functional specs – see class notes. This refers to high level functions you plan to develop to the best of your knowledge at this point.  Focus on WHAT and not HOW. Keep the user in mind. Develop these functions to be consistent with use cases and requirements above. Number each requirement and use these numbers consistently from then on. For each function use 1-5 line description
 
 ##HIN
@@ -25,7 +25,7 @@ List of non-functional specs (performance, expected load, security requirements,
 ##ANDRE
 Competitive analysis: Find 3-4 competitive products. Present competitors’ features vs. your planned ones. First, create a table with key features of competitors vs. yours planed, only very high level, 5-6 entries max. After the table, you must summarize in one paragraph what are the planned advantages or competitive relationship of your planned product to what is already available. In the table clearly mark your product. (Consult class slides)
 
-##ANTHONY
+##ANTHONY Yolo-test
 High-level system architecture Briefly describe/list all main SW components, frameworks, products, APIs, tools and systems to be used, supported browsers etc. Consult and make it consistent with non-functional specs. Since you will all use LAMP stack, say it and outline main SW tools and products to be used.  Note that you must use tools and platforms specified for the class so just summarize it here for completeness.  You also have to finalize on  SW frameworks you will use (we recommend you stick with what you decided in M0 unless it needs to change which is OK too).  Any other external code must be approved by instructors and you have to justify it. 
 
 
