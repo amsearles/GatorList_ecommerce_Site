@@ -20,7 +20,32 @@ Data Definition -  define main terms and “things” or “entities” at high 
 Initial list of functional specs – see class notes. This refers to high level functions you plan to develop to the best of your knowledge at this point.  Focus on WHAT and not HOW. Keep the user in mind. Develop these functions to be consistent with use cases and requirements above. Number each requirement and use these numbers consistently from then on. For each function use 1-5 line description
 
 ##HIN
-List of non-functional specs (performance, expected load, security requirements, storage, availability, fault tolerance…) Number each.  Note that some mandatory high level non-functional specs are given in high level document, so for Milestone we recommend simply copy them from high level document and add any other you deem necessary.
+1.	Application shall be developed using class provided LAMP stack
+2.	Application shall be developed using pre-approved set of SW development and collaborative tools provided in the class. Any other tools or frameworks must  be be explicitly approved by Anthony Souza on a case by case basis.
+3.	Application shall be hosted and deployed on Amazon Web Services as specified in the class
+4.	Application shall be optimized for standard desktop/laptop browsers, and must render correctly on the two latest versions of all major browsers: Mozilla, Safari, Chrome. 
+5.	Application shall have responsive UI code so it can be adequately rendered on mobile devices but no mobile native app is to be developed
+6.	Data shall be stored in the MySQL database on the class server in the team's account
+7.	Application shall be served from the team's account
+8.	No more than 50 concurrent users shall be accessing the application at any time
+9.	Privacy of users shall be protected and all privacy policies will be appropriately communicated to the users.
+10.	The language used shall be English. 
+11.	Application shall be very easy to use and intuitive. No prior training shall be required to use the website. 
+12.	Google analytics shall be added
+13.	Messaging between users shall be done only by class approved methods to avoid issues of security with e-mail services.
+14.	Pay functionality (how to pay for goods and services) shall not be implemented.
+15.	Site security: basic best  practices shall be applied (as covered in the class)
+16.	Modern SE processes and practices shall be used as specified in the class, including collaborative and continuous SW development
+17.	The website shall prominently display the following text on all pages "SFSU Software Engineering Project, Spring 2017.  For Demonstration Only". (Important so as to not confuse this with a real application).
+18. Application shall provide user with adequate information on its functionality.
+19. Application shall not crash, and if it does, not constantly. 
+20. Application, in the event of a crash, shall be back up within 24 hours.
+21. Application shall be available during all hours except in the following cases: the website is taken down after the semester, the website has crashed, there is a serious problem/bug that needs immediate addressing. 
+22. Application shall load all pages fast enough to satisfy the average user.
+23. Application shall not confuse the user with unnecessary information.
+24. Application shall provide users with all information necessary to acquire their product. 
+25. All user username and password shall be adequately protected.
+26. User account and information shall not be compromised in any way. 
 
 ##ANDRE
 Competitive analysis: Find 3-4 competitive products. Present competitors’ features vs. your planned ones. First, create a table with key features of competitors vs. yours planed, only very high level, 5-6 entries max. After the table, you must summarize in one paragraph what are the planned advantages or competitive relationship of your planned product to what is already available. In the table clearly mark your product. (Consult class slides)
