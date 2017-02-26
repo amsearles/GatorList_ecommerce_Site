@@ -18,22 +18,35 @@ Data Definition -  define main terms and “things” or “entities” at high 
 
 ##ANTHONY --in progress--
 Initial list of functional specs – see class notes. This refers to high level functions you plan to develop to the best of your knowledge at this point.  Focus on WHAT and not HOW. Keep the user in mind. Develop these functions to be consistent with use cases and requirements above. Number each requirement and use these numbers consistently from then on. For each function use 1-5 line description
+
 1.  Users shall be able to...
+
 	a.)create an account
+	
 	b.)browse listings without having to register
+	
 	c.)sort listings by categories like price, date, etc.
+	
 	d.)post listings
+	
 	e.)contact sellers
+	
 	f.)leave reviews (?)
+	
 	g.)contact support
+	
 	h.)-todo-.....
 	
 2. Admins shall be able to...
+
 	a.)remove listings
+	
 	b.)...
 	
 3. The application shall be able to...
+
 	a.)provide registration with sfsu email
+	
 	b.)-todo-....
 
 ##HIN
@@ -69,24 +82,41 @@ Competitive analysis: Find 3-4 competitive products. Present competitors’ feat
 
 ##ANTHONY --in progress--
 High-level system architecture Briefly describe/list all main SW components, frameworks, products, APIs, tools and systems to be used, supported browsers etc. Consult and make it consistent with non-functional specs. Since you will all use LAMP stack, say it and outline main SW tools and products to be used.  Note that you must use tools and platforms specified for the class so just summarize it here for completeness.  You also have to finalize on  SW frameworks you will use (we recommend you stick with what you decided in M0 unless it needs to change which is OK too).  Any other external code must be approved by instructors and you have to justify it.
+
 •	CakePHP framework
+
 •	Git version control using GitHub
+
 • 	AWS Server to deploy and host website
+
 • 	Google Analytics
+
 • 	LAMP stack utilizing...
-	-	OS: Ubuntu Server, Version: 16.04
-	-	MySQL Version: 5.7
-	-	PHP Version: 7.0.13
-	-	OpenSSH Version: 7.2
-	-	Git Version: 2.7.4
-	-	Python: 2.7
-	-	Ruby: 2.3.1
-	-	nodejs: 4.2.6
-	-	npm: 3.5.2
-	-	Less: 481
-	-	Sass: 3.4.23
+
+	-OS: Ubuntu Server, Version: 16.04
+	
+	-MySQL Version: 5.7
+	
+	-PHP Version: 7.0.13
+	
+	-OpenSSH Version: 7.2
+	
+	-Git Version: 2.7.4
+	
+	-Python: 2.7
+	
+	-Ruby: 2.3.1
+	
+	-nodejs: 4.2.6
+	
+	-npm: 3.5.2
+	
+	-Less: 481
+	
+	-Sass: 3.4.23
 
 • 	Supports Mozilla Firefox 50+, Google Chrome 55+, Internet Explorer 10+, Microsoft Edge 39.14971+
+
 • ....
 
 
