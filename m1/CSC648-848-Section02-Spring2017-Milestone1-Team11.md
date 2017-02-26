@@ -1,3 +1,13 @@
+| Name | Phase 1 | Phase 2 | FINAL  | Print & Review |
+| ------ | ------ | ------ | ------ | ------ |
+| HIN | Completed  |
+| JORDAN | In progress |
+| DARYL | In progress  | 
+| ANDRE | In progess | 
+| ANTHONY | In progress  |
+| HASAN | In progress | 
+
+
 - HIN SUNDAY MORNING - EDIT EXECUTIVE SUMMARY - CHECK WHOLE FILE
 - DARYL SUNDAY EVENING - EDIT EXECUTIVE SUMMARY - CHECK WHOLE FILE
 - ANDNRE MONDAY MORNING - EDIT EXECUTIVE SUMMARY - CHECK WHOLE FILE
@@ -70,7 +80,7 @@ Initial list of functional specs – see class notes. This refers to high level 
 18. Application shall provide user with adequate information on its functionality.
 19. Application shall not crash, and if it does, not constantly. 
 20. Application, in the event of a crash, shall be back up within 24 hours.
-21. Application shall be available during all hours except in the following cases: the website is taken down after the semester, the website has crashed, there is a serious problem/bug that needs immediate addressing. 
+21. Application shall be available during all hours except in the following cases: the website is taken down after the semester, the website has crashed, contract with webserver was expired, web server access right was violated by third parties, or there is a serious problem/bug that needs immediate addressing. 
 22. Application shall load all pages fast enough to satisfy the average user.
 23. Application shall not confuse the user with unnecessary information.
 24. Application shall provide users with all information necessary to acquire their product. 
@@ -122,23 +132,31 @@ High-level system architecture Briefly describe/list all main SW components, fra
 
 
 ##HASAN
-Team: list student names, name of the team leader, and initial roles for each member)
 
- Checklist:  for each item below you must answer with only one of the following: DONE; or ON TRACK (meaning it will be done on time, and no issues perceived); or ISSUE (you have some problems, and then define what is the problem with 1-3 lines)
+#Team: 
+| Name | Role | 
+| ------ | ------ |
+| HASAN | Team Lead , Back End Developer |
+| JORDAN | CTO , Design | 
+| DARYL | GitHub Admin , Design  | 
+| ANDRE | Back End Developer, Performance | 
+| ANTHONY | Front End Developer  |
+| HIN | Front & Back End | 
 
-•	Team decided on basic means of communications
 
-•	Team found a time slot to meet  outside of the class
+•	Team decided on basic means of communications - DONE
 
-•	CTO chosen and working out well so far
+•	Team found a time slot to meet  outside of the class - DONE
 
-•	Github master chosen
+•	CTO chosen and working out well so far - DONE
 
-•	Team ready and able to use the chosen framework
+•	Github master chosen - DONE
 
-•	Skills of each team member defined and known to all
+•	Team ready and able to use the chosen framework - ON TRACK
 
-•	Team lead ensured that all team members read the  final M1 and agree/understand it before submission
+•	Skills of each team member defined and known to all - ON TRACK
+
+•	Team lead ensured that all team members read the  final M1 and agree/understand it before submission - ON TRACK
 
 
 
