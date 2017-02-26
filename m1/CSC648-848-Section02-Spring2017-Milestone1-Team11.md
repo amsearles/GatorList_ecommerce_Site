@@ -2,7 +2,7 @@
 | ------ | ------ | ------ | ------ | ------ |
 | HIN | Completed  |
 | JORDAN | In progress |
-| DARYL | In progress  | 
+| DARYL | Completed  | 
 | ANDRE | In progess | 
 | ANTHONY | In progress  |
 | HASAN | In progress | 
