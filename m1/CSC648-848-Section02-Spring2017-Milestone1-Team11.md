@@ -4,7 +4,7 @@
 | JORDAN | Completed |
 | DARYL | Completed  | 
 | ANDRE | In progress | 
-| ANTHONY | Completed  |
+| ANTHONY | In progress  |
 | HASAN | Completed | 
 
 
@@ -41,11 +41,10 @@
 3. Alexander is a student at SFSU who has previously used the website, for purchasing and now wants to post his own calculator for sale. Upon opening the site he presses the post button and is prompted to log in or register for an account as a previously registered user Alexander inputs his email and password and is logged in. Alexander enters the name of his product, selects a category and is forced to upload at least one image of his product and is able to add up to five total images. After he presses the post button on this page the information he entered into the page is added to the product page where his calculator can be found under the calculator category for purchase. When a registered user wishes to communicate with Alexander about his post he will receive a notification on the messages tab that can be found from a link on the main page. 
 
 ## HASAN
-### 3. Data Definition
 ***Guest User***  shall be able to:
 - browse in website freely.
 
- ***Verified User*** shall be able to:
+***Verified User*** shall be able to:
 -  post new ***Items*** for sale and edit their own ***Items***.
 -  communicate with other ***Verified Users*** about their ***Item*** for sale.
 -  report any privacy violation to site ***Admin***.
