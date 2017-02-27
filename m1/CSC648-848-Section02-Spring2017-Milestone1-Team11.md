@@ -3,7 +3,7 @@
 | HIN | Completed  | Due Tonight |
 | JORDAN | Completed | Monday Evening |
 | DARYL | Completed  | Due Tonight |
-| ANDRE | In progress | Due Monday Mornning |
+| ANDRE | Completed | Due Monday Mornning |
 | ANTHONY | In progress  | Due Monday Evening |
 | HASAN | Completed | Due Monday Evening |
 
