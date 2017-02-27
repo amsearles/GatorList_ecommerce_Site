@@ -94,9 +94,9 @@ High-level functional specs
 
 	a.)remove ***items***
 	
-	b.)block accounts that break our terms of agreement
+	b.)block accounts
  	
- 	c.)view message logs to handle disputes
+ 	c.)view message logs
 
  	d.)login/logout
 	
@@ -212,7 +212,7 @@ High-level system architecture
 
 • 	Supports Mozilla Firefox 50+, Google Chrome 55+, Internet Explorer 10+, Microsoft Edge 39.14971+
 
-	-the second to most recent web browser versions.
+	-Applicaion supports the second to most recent web browser versions.
 
 
 
