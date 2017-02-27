@@ -31,7 +31,7 @@ Executive Summary: Short description of the final product/application and its ke
 ##HASAN
 Data Definition -  define main terms and “things” or “entities” at high or logical (not implementation) level (e.g. name, meaning, usage, and NOT how the data is stored in memory) so it is easier to refer to them in the document. Focus on key terms (main data elements, actors, types of users etc.) specific for this application and not on general, well know terms. These terms and their names must be used consistently from then on in all documents, user interface, in naming SE components and database elements etc. In later milestones you will add more implementation details for each item. You will later expand this section with more details
 
-##ANTHONY --in progress--
+##ANTHONY
 Initial list of functional specs – see class notes. This refers to high level functions you plan to develop to the best of your knowledge at this point.  Focus on WHAT and not HOW. Keep the user in mind. Develop these functions to be consistent with use cases and requirements above. Number each requirement and use these numbers consistently from then on. For each function use 1-5 line description
 
 1.  Users shall be able to...
@@ -40,7 +40,7 @@ Initial list of functional specs – see class notes. This refers to high level 
 	
 	b.)browse listings without having to register
 	
-	c.)sort listings by categories like price, date, etc.
+	c.)sort listings by categories
 	
 	d.)post listings
 	
@@ -50,19 +50,37 @@ Initial list of functional specs – see class notes. This refers to high level 
 	
 	g.)contact support
 	
-	h.)-todo-.....
+	h.)upload up to 5 images of their product
+	
+	i.)login/logut of accounts
 	
 2. Admins shall be able to...
 
 	a.)remove listings
 	
-	b.)...
+	b.)block accounts
+	
+	c.)view message logs
 	
 3. The application shall be able to...
 
-	a.)provide registration with sfsu email
+	a.)provide registration with sfsu email and a user-generated password
 	
-	b.)-todo-....
+	b.)sort listings by category
+	
+	c.)sort similarly categorized products by price, alphabetically, or by date
+	
+	c.)provide messaging services between sellers and buyers
+	
+	d.)provide a terms of agreement
+	
+	e.)log conversations between users
+	
+	f.)differentiate between users and admins
+	
+	g.)show images of products
+	
+	f.)notify users of new messages
 
 ##HIN
 1.	Application shall be developed using class provided LAMP stack
@@ -132,7 +150,6 @@ High-level system architecture Briefly describe/list all main SW components, fra
 
 • 	Supports Mozilla Firefox 50+, Google Chrome 55+, Internet Explorer 10+, Microsoft Edge 39.14971+
 
-• ....
 
 
 
