@@ -1,17 +1,18 @@
 | Name | Phase 1 | Phase 2 | FINAL  | Print & Review |
 | ------ | ------ | ------ | ------ | ------ |
-| HIN | Completed  |
-| JORDAN | Completed |
-| DARYL | Completed  | 
-| ANDRE | In progress | 
-| ANTHONY | In progress  |
-| HASAN | Completed | 
+| HIN | Completed  | Due Tonight |
+| JORDAN | Completed | Monday Evening |
+| DARYL | Completed  | Due Tonight |
+| ANDRE | In progress | Due Monday Mornning |
+| ANTHONY | In progress  | Due Monday Evening |
+| HASAN | Completed | Due Monday Evening |
 
+## STEPS
+-Phase 1 - Your portion of paragraphs
+-Phase 2 - Edit Executive Summary + Review Whole FILE
+-FINAL - Applies to HASAN, will re-format and print
+-PRINT & Review - Finalize after Instructors Feedback
 
-- HIN SUNDAY MORNING - EDIT EXECUTIVE SUMMARY - CHECK WHOLE FILE
-- DARYL SUNDAY EVENING - EDIT EXECUTIVE SUMMARY - CHECK WHOLE FILE
-- ANDNRE MONDAY MORNING - EDIT EXECUTIVE SUMMARY - CHECK WHOLE FILE
-- HASAN MONDAY EVENING - EDIT EXECUTIVE SUMMARY - CHECK WHOLE FILE
 
 #EXTRA INFORMATION FOR MARKDOWN VISIT DILLINGER.IO
 
