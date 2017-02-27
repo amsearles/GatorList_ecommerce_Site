@@ -18,6 +18,20 @@
 
 ##JORDAN SCANDLYN
 Executive Summary: Short description of the final product/application and its key advantages, novelty, value (up to 1 page). Make it as an executive summary – think of answering the question of why we should fund this project. We suggest you assign a name to your project for easier reference and good “marketing”.  This summary should be readable to a general manger/executive who is not a CS specialist and is used to explain and also to advertise/promote your project. At the end say in one paragraph a something about your team (e.g. about your student startup team…).
+	
+**Team11** solves scaled networking for college students reselling textbooks. Our team unified the core functions of e-commerce platforms into a single, complete architecture. Team11 has launched its Alpha program at **San Francisco State University**.
+**Team11** is built on top of one cutting edge software to provide high speed transactions for users. Our platform will be reliable, secure and customer tested when we go to market. 
+	We believe that existing peer to peer textbook sales platforms do not meet the needs for users and investors. In our platform, schools can work directly to update textbooks requirements for classes at their university using http://sfsuse.com/~sp17g11/_login.
+	A scaled review process for textbook postings in the case of fraud is in place.
+
+**To the seller:** no markup will be placed on your book for using our system. 
+**To the buyer:** reach out to the seller using our secure platform. 
+**To the school:** any book unavailable on our platform can be linked to the campus library/store at a small fee. Signing up for premium membership will qualify you in priority ad spacing.
+	
+	You can learn about our core software engineers at http://sfsuse.com/~sp17g11/about.php
+
+Our team has compiled extensive research and practice implementing the latest design and features into web systems. 
+
 
 
 ##DARYL
