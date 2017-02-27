@@ -76,6 +76,8 @@ Initial list of functional specs – see class notes. This refers to high level 
 	
 	c.)view message logs
 	
+	d.)login/logut
+	
 3. The application shall be able to...
 
 	a.)provide registration with sfsu email and a user-generated password
