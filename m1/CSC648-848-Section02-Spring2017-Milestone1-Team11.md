@@ -4,7 +4,7 @@
 | JORDAN | Completed | Monday Evening |
 | DARYL | Completed  | Due Tonight |
 | ANDRE | In progress | Due Monday Mornning |
-| ANTHONY | In progress  | Due Monday Evening |
+| ANTHONY | Completed  | Due Monday Evening |
 | HASAN | Completed | Due Monday Evening |
 
 
@@ -69,35 +69,34 @@
 - mobility / commuting device. 
 
 ## ANTHONY 
-Initial list of functional specs – see class notes. This refers to high level functions you plan to develop to the best of your knowledge at this point.  Focus on WHAT and not HOW. Keep the user in mind. Develop these functions to be consistent with use cases and requirements above. Number each requirement and use these numbers consistently from then on. For each function use 1-5 line description
-
+High-level functional specs
 1.  Users shall be able to...
 
-	a.)create an account
+	a.)create an account using an sfsu email
 	
-	b.)browse listings without having to register
+	b.)browse ***items*** without having to register
 	
-	c.)sort listings by categories
+	c.)sort ***items*** by categories
 	
-	d.)post listings
+	d.)post ***items*** specifying price, category, and their contact information
 	
 	e.)contact sellers
 	
-	f.)leave reviews (?)
+	f.)leave reviews on sellers
 	
-	g.)contact support
+	g.)contact support 
 
-	h.)upload up to 5 images of their product
+	h.)upload up to 5 images of their ***item***
  	
  	i.)login/logut of accounts
 	
 2. Admins shall be able to...
 
-	a.)remove listings
+	a.)remove ***items***
 	
-	b.)block accounts
+	b.)block accounts that break our terms of agreement
  	
- 	c.)view message logs
+ 	c.)view message logs to handle disputes
 
  	d.)login/logout
 	
@@ -105,21 +104,23 @@ Initial list of functional specs – see class notes. This refers to high level 
 
 	a.)provide registration with sfsu email and a user-generated password
  	
- 	b.)sort listings by category
+ 	b.)sort ***items*** by category
  	
- 	c.)sort similarly categorized products by price, alphabetically, or by date
+ 	c.)sort similarly categorized ***items*** by price, alphabetically, or by date
  	
  	c.)provide messaging services between sellers and buyers
  	
- 	d.)provide a terms of agreement
+ 	d.)provide a terms of agreement during user registration
  	
- 	e.)log conversations between users
+ 	e.)log conversations between users 
  	
- 	f.)differentiate between users and admins
+ 	f.)differentiate between users and admins.
  	
  	g.)show images of products
 
  	h.)notify users of new messages
+	
+	
 
 ## HIN
 1.	Application shall be developed using class provided LAMP stack
@@ -162,18 +163,30 @@ Initial list of functional specs – see class notes. This refers to high level 
 
 Our service makes it easy to buy or sell items to local students and staff. The main advantage over our competitors will be our guaranteed exclusivity of registered users being students or staff of San Francisco State University. Our core features are on par with our competitors, making our service reliable and effective. Our simple and easy to use design will make buying and selling products an effortless task. Buyers can rest assured that the products they view come from local members of the university.
 
-## ANTHONY --in progress--
-High-level system architecture Briefly describe/list all main SW components, frameworks, products, APIs, tools and systems to be used, supported browsers etc. Consult and make it consistent with non-functional specs. Since you will all use LAMP stack, say it and outline main SW tools and products to be used.  Note that you must use tools and platforms specified for the class so just summarize it here for completeness.  You also have to finalize on  SW frameworks you will use (we recommend you stick with what you decided in M0 unless it needs to change which is OK too).  Any other external code must be approved by instructors and you have to justify it.
+## ANTHONY 
+High-level system architecture
 
 •	CakePHP framework
 
+	-PHP framework chosen to supplement the development of the application
+
 •	Git version control using GitHub
 
-• 	AWS Server to deploy and host website
+	-utilization of a private repository to maintain our ongoing development
+
+• 	Amazon web server
+
+	-used for hosting and deployment of code
 
 • 	Google Analytics
 
-• 	LAMP stack utilizing...
+	-used to track website traffic
+
+•   Markdown
+
+	-used for documentation
+
+• 	LAMP stack utilizing:
 
 	-OS: Ubuntu Server, Version: 16.04
 	
@@ -197,7 +210,10 @@ High-level system architecture Briefly describe/list all main SW components, fra
 	
 	-Sass: 3.4.23
 
-• 	Supports Mozilla Firefox 50, Google Chrome 55, Internet Explorer 10, Microsoft Edge 39.14971
+• 	Supports Mozilla Firefox 50+, Google Chrome 55+, Internet Explorer 10+, Microsoft Edge 39.14971+
+
+	-the second to most recent web browser versions.
+
 
 
 
