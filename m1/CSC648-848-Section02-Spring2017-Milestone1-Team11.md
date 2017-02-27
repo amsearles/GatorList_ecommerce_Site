@@ -3,7 +3,7 @@
 | HIN | Completed  |
 | JORDAN | In progress |
 | DARYL | Completed  | 
-| ANDRE | In progess | 
+| ANDRE | In progress | 
 | ANTHONY | In progress  |
 | HASAN | In progress | 
 
@@ -16,11 +16,23 @@
 #EXTRA INFORMATION FOR MARKDOWN VISIT DILLINGER.IO
 
 
-##JORDAN SCANDLYN
-Executive Summary: Short description of the final product/application and its key advantages, novelty, value (up to 1 page). Make it as an executive summary – think of answering the question of why we should fund this project. We suggest you assign a name to your project for easier reference and good “marketing”.  This summary should be readable to a general manger/executive who is not a CS specialist and is used to explain and also to advertise/promote your project. At the end say in one paragraph a something about your team (e.g. about your student startup team…).
+## JORDAN
+**Team11** solves scaled networking for college students reselling textbooks. Our team unified the core functions of e-commerce platforms into a single, complete architecture. Team11 has launched its Alpha program at **San Francisco State University**.
+ **Team11** is built on top of one cutting edge software to provide high speed transactions for users. Our platform will be reliable, secure and customer tested when we go to market. 
+ 	We believe that existing peer to peer textbook sales platforms do not meet the needs for users and investors. In our platform, schools can work directly to update textbooks requirements for classes at their university using http://sfsuse.com/~sp17g11/_login.
+ 	A scaled review process for textbook postings in the case of fraud is in place.
+ 
+ **To the seller:** no markup will be placed on your book for using our system. 
+ **To the buyer:** reach out to the seller using our secure platform. 
+ **To the school:** any book unavailable on our platform can be linked to the campus library/store at a small fee. Signing up for premium membership will qualify you in priority ad spacing.
+ 	
+ 	You can learn about our core software engineers at http://sfsuse.com/~sp17g11/about.php
+ 
+ Our team has compiled extensive research and practice implementing the latest design and features into web systems. 
+ 
 
 
-##DARYL
+## DARYL
 
 1. Jeremy is a student at SFSU with very limited technological skills who is logging on the website for the first time looking to buy a textbook. When first opening the webpage Jeremy is able to see a button prompting him to browse listing which he selects. After that Jeremy is able to choose the “textbooks” category from a list of options and all the current items marked as textbooks appear initially sorted alphabetically. Jeremy doesn’t want to spend a lot of money so above the listings he sees where it says “sort” and selects “price low to high” and the results are organized by pice. Without logging in Jeremy is able to access the descriptions and pictures of items. When he presses the button to begin the transaction he is prompted to either log in to his account or register a new one. As an unregistered user with no prior account Jeremy must enter an .edu email along with a password to create his account, as well as agree to our terms and services agreement that addresses all of the permissions the user grants to the site. Jeremy enters an email which does not contain the .edu suffix and upon pressing register is prompted to enter a .edu email. After the account has been created Jeremy will be redirected to the product page he was previously viewing, where he may use the messaging system to contact the seller where they can discuss price, meeting times, or deliver options. The records of their messages will be saved for administrator mediation purposes, using the transaction number as a primary key, as stated in the terms and services agreement.
 
@@ -28,10 +40,30 @@ Executive Summary: Short description of the final product/application and its ke
 
 3. Alexander is a student at SFSU who has previously used the website, for purchasing and now wants to post his own calculator for sale. Upon opening the site he presses the post button and is prompted to log in or register for an account as a previously registered user Alexander inputs his email and password and is logged in. Alexander enters the name of his product, selects a category and is forced to upload at least one image of his product and is able to add up to five total images. After he presses the post button on this page the information he entered into the page is added to the product page where his calculator can be found under the calculator category for purchase. When a registered user wishes to communicate with Alexander about his post he will receive a notification on the messages tab that can be found from a link on the main page. 
 
-##HASAN
-Data Definition -  define main terms and “things” or “entities” at high or logical (not implementation) level (e.g. name, meaning, usage, and NOT how the data is stored in memory) so it is easier to refer to them in the document. Focus on key terms (main data elements, actors, types of users etc.) specific for this application and not on general, well know terms. These terms and their names must be used consistently from then on in all documents, user interface, in naming SE components and database elements etc. In later milestones you will add more implementation details for each item. You will later expand this section with more details
+## HASAN
+### 3. Data Definition
+***Guest User***  shall be able to:
+- browse in website freely.
 
-##ANTHONY --in progress--
+ ***Verified User*** shall be able to:
+-  post new ***Items*** for sale and edit their own ***Items***.
+-  communicate with other ***Verified Users*** about their ***Item*** for sale.
+-  report any privacy violation to site ***Admin***.
+
+***Admin*** shall be able to:
+- edit, delete, block users' account.
+- monitor and filter unusual activities.
+- detect posting violations and enforce preventive precautions.
+
+***Item*** shall be: 
+- books or class notes.
+- service related to education.
+- electronic gadgets.
+- accessories or clothing.
+- furniture. 
+- mobility / commuting device. 
+
+## ANTHONY 
 Initial list of functional specs – see class notes. This refers to high level functions you plan to develop to the best of your knowledge at this point.  Focus on WHAT and not HOW. Keep the user in mind. Develop these functions to be consistent with use cases and requirements above. Number each requirement and use these numbers consistently from then on. For each function use 1-5 line description
 
 1.  Users shall be able to...
@@ -40,7 +72,7 @@ Initial list of functional specs – see class notes. This refers to high level 
 	
 	b.)browse listings without having to register
 	
-	c.)sort listings by categories like price, date, etc.
+	c.)sort listings by categories
 	
 	d.)post listings
 	
@@ -49,22 +81,42 @@ Initial list of functional specs – see class notes. This refers to high level 
 	f.)leave reviews (?)
 	
 	g.)contact support
-	
-	h.)-todo-.....
+
+	h.)upload up to 5 images of their product
+ 	
+ 	i.)login/logut of accounts
 	
 2. Admins shall be able to...
 
 	a.)remove listings
 	
-	b.)...
+	b.)block accounts
+ 	
+ 	c.)view message logs
+
+ 	d.)login/logout
 	
 3. The application shall be able to...
 
-	a.)provide registration with sfsu email
-	
-	b.)-todo-....
+	a.)provide registration with sfsu email and a user-generated password
+ 	
+ 	b.)sort listings by category
+ 	
+ 	c.)sort similarly categorized products by price, alphabetically, or by date
+ 	
+ 	c.)provide messaging services between sellers and buyers
+ 	
+ 	d.)provide a terms of agreement
+ 	
+ 	e.)log conversations between users
+ 	
+ 	f.)differentiate between users and admins
+ 	
+ 	g.)show images of products
 
-##HIN
+ 	h.)notify users of new messages
+
+## HIN
 1.	Application shall be developed using class provided LAMP stack
 2.	Application shall be developed using pre-approved set of SW development and collaborative tools provided in the class. Any other tools or frameworks must  be be explicitly approved by Anthony Souza on a case by case basis.
 3.	Application shall be hosted and deployed on Amazon Web Services as specified in the class
@@ -92,10 +144,10 @@ Initial list of functional specs – see class notes. This refers to high level 
 25. All user username and password shall be adequately protected.
 26. User account and information shall not be compromised in any way. 
 
-##ANDRE
+## ANDRE
 Competitive analysis: Find 3-4 competitive products. Present competitors’ features vs. your planned ones. First, create a table with key features of competitors vs. yours planed, only very high level, 5-6 entries max. After the table, you must summarize in one paragraph what are the planned advantages or competitive relationship of your planned product to what is already available. In the table clearly mark your product. (Consult class slides)
 
-##ANTHONY --in progress--
+## ANTHONY --in progress--
 High-level system architecture Briefly describe/list all main SW components, frameworks, products, APIs, tools and systems to be used, supported browsers etc. Consult and make it consistent with non-functional specs. Since you will all use LAMP stack, say it and outline main SW tools and products to be used.  Note that you must use tools and platforms specified for the class so just summarize it here for completeness.  You also have to finalize on  SW frameworks you will use (we recommend you stick with what you decided in M0 unless it needs to change which is OK too).  Any other external code must be approved by instructors and you have to justify it.
 
 •	CakePHP framework
@@ -130,15 +182,14 @@ High-level system architecture Briefly describe/list all main SW components, fra
 	
 	-Sass: 3.4.23
 
-• 	Supports Mozilla Firefox 50+, Google Chrome 55+, Internet Explorer 10+, Microsoft Edge 39.14971+
-
-• ....
+• 	Supports Mozilla Firefox 50, Google Chrome 55, Internet Explorer 10, Microsoft Edge 39.14971
 
 
 
-##HASAN
 
-#Team: 
+## HASAN
+
+# Team: 
 | Name | Role | 
 | ------ | ------ |
 | HASAN | Team Lead , Back End Developer |
