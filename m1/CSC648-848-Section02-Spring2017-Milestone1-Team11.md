@@ -7,11 +7,16 @@
 | ANTHONY | In progress  | Due Monday Evening |
 | HASAN | Completed | Due Monday Evening |
 
-## STEPS
--Phase 1 - Your portion of paragraphs
--Phase 2 - Edit Executive Summary + Review Whole FILE
--FINAL - Applies to HASAN, will re-format and print
--PRINT & Review - Finalize after Instructors Feedback
+
+## **STEPS**
+
+>**Phase 1** - Your portion of paragraphs
+
+>**Phase 2** - Edit Executive Summary + Review Whole FILE
+
+>**FINAL** - Applies to HASAN, will re-format and print
+
+>**PRINT & Review** - Finalize after Instructors Feedback
 
 
 #EXTRA INFORMATION FOR MARKDOWN VISIT DILLINGER.IO
