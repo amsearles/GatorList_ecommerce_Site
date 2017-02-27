@@ -3,7 +3,7 @@
 | HIN | Completed  | Due Tonight |
 | JORDAN | Completed | Monday Evening |
 | DARYL | Completed  | Due Tonight |
-| ANDRE | Completed | Due Monday Mornning |
+| ANDRE | In progress | Due Monday Mornning |
 | ANTHONY | In progress  | Due Monday Evening |
 | HASAN | Completed | Due Monday Evening |
 
@@ -149,6 +149,7 @@ Initial list of functional specs – see class notes. This refers to high level 
 25. All user username and password shall be adequately protected.
 26. User account and information shall not be compromised in any way. 
 
+## ANDRE
 | **Features**| Team11 | Etsy |Amazon Custom  | Craigslist |
 | ------ | ------ | ------ | ------ | ------ |
 | Browse listings |+|+|+ |+
@@ -159,7 +160,7 @@ Initial list of functional specs – see class notes. This refers to high level 
 
 \+ Available, - Unavailable, ++ Exceptional
 
-Our service makes it easy to buy or sell items to local students and staff. The main advantage over our competitors will be our guaranteed exclusivity of registered users being students or staff of San Francisco State University. Our core features are on par with our competitors, making our service reliable and effective. Our simple and easy to use design will make buying and selling products an effortless task. Buyers can rest assured that the products they view come from local members of the university. 
+Our service makes it easy to buy or sell items to local students and staff. The main advantage over our competitors will be our guaranteed exclusivity of registered users being students or staff of San Francisco State University. Our core features are on par with our competitors, making our service reliable and effective. Our simple and easy to use design will make buying and selling products an effortless task. Buyers can rest assured that the products they view come from local members of the university.
 
 ## ANTHONY --in progress--
 High-level system architecture Briefly describe/list all main SW components, frameworks, products, APIs, tools and systems to be used, supported browsers etc. Consult and make it consistent with non-functional specs. Since you will all use LAMP stack, say it and outline main SW tools and products to be used.  Note that you must use tools and platforms specified for the class so just summarize it here for completeness.  You also have to finalize on  SW frameworks you will use (we recommend you stick with what you decided in M0 unless it needs to change which is OK too).  Any other external code must be approved by instructors and you have to justify it.
