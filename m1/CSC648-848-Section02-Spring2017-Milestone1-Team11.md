@@ -1,11 +1,11 @@
 | Name | Phase 1 | Phase 2 | FINAL  | Print & Review |
 | ------ | ------ | ------ | ------ | ------ |
 | HIN | Completed  |
-| JORDAN | In progress |
+| JORDAN | Completed |
 | DARYL | Completed  | 
 | ANDRE | In progress | 
-| ANTHONY | In progress  |
-| HASAN | In progress | 
+| ANTHONY | Completed  |
+| HASAN | Completed | 
 
 
 - HIN SUNDAY MORNING - EDIT EXECUTIVE SUMMARY - CHECK WHOLE FILE
