@@ -94,11 +94,11 @@ High-level functional specs
 
 	a.)create an account using an sfsu email
 	
-	b.)browse ***items*** without having to register
+	b.)browse items without having to register
 	
-	c.)sort ***items*** by categories
+	c.)sort items by categories
 	
-	d.)post ***items*** specifying price, category, and their contact information
+	d.)post items specifying price, category, and their contact information
 	
 	e.)contact sellers
 	
@@ -106,13 +106,13 @@ High-level functional specs
 	
 	g.)contact support 
 
-	h.)upload up to 5 images of their ***item***
+	h.)upload up to 5 images of their items
  	
  	i.)login/logut of accounts
 	
 2. Admins shall be able to...
 
-	a.)remove ***items***
+	a.)remove items
 	
 	b.)block accounts
  	
@@ -124,9 +124,9 @@ High-level functional specs
 
 	a.)provide registration with sfsu email and a user-generated password
  	
- 	b.)sort ***items*** by category
+ 	b.)sort items by category
  	
- 	c.)sort similarly categorized ***items*** by price, alphabetically, or by date
+ 	c.)sort similarly categorized items by price, alphabetically, or by date
  	
  	c.)provide messaging services between sellers and buyers
  	
@@ -143,7 +143,6 @@ High-level functional specs
 	
 >-VERY WELL WRITTEN
 >-Again, Are we really going to provide pay functionality?
->-Application shall ve easy and trivial to use. Any one at any level should be able to use it wihtout too much hassle. Also Application shall provide minimum elegant , simplistic design that looks appealing and fully functional. We shouldn;t have too many elements on page so that user would take time to look for certain link or spend more than few seconds to find what he/she needs. (I am not talking about actual search)
 >-Instead of usinf Application shall be in each level, use one and bullet other properties aligned in the bottom.
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Hasan)
 ## HIN
@@ -160,7 +159,7 @@ High-level functional specs
 11.	Application shall be very easy to use and intuitive. No prior training shall be required to use the website. 
 12.	Google analytics shall be added
 13.	Messaging between users shall be done only by class approved methods to avoid issues of security with e-mail services.
-14.	Pay functionality (how to pay for goods and services) shall not be implemented.
+14.	Pay functionality (how to pay for goods and services) shall **not** be implemented.
 15.	Site security: basic best  practices shall be applied (as covered in the class)
 16.	Modern SE processes and practices shall be used as specified in the class, including collaborative and continuous SW development
 17.	The website shall prominently display the following text on all pages "SFSU Software Engineering Project, Spring 2017.  For Demonstration Only". (Important so as to not confuse this with a real application).
@@ -173,6 +172,7 @@ High-level functional specs
 24. Application shall provide users with all information necessary to acquire their product. 
 25. All user username and password shall be adequately protected.
 26. User account and information shall not be compromised in any way. 
+27. Application shall provide elegant, simplistic design that looks appealing and fully functional.
 
 ## ANDRE
 >What kind of security do we guarantee?? What else can we put? Brainstorm with team,check other websites.
