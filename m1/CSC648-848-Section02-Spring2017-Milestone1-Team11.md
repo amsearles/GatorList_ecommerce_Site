@@ -1,11 +1,11 @@
 | Name | Phase 1 | Phase 2 | FINAL  | Print & Review |
 | ------ | ------ | ------ | ------ | ------ |
-| HIN | Completed  | Due Tonight |
-| JORDAN | Completed | Monday Evening |
-| DARYL | Completed  | Due Tonight |
-| ANDRE | Completed | Due Monday Mornning |
-| ANTHONY | Completed  | Due Monday Evening |
-| HASAN | Completed | Due Monday Evening |
+| HIN | Completed  | Completed |
+| JORDAN | Completed | Completed |
+| DARYL | Completed  | Completed |
+| ANDRE | Completed | Completed |
+| ANTHONY | Completed  | Completed |
+| HASAN | Completed | Completed |
 
 
 ## **STEPS**
@@ -23,6 +23,14 @@
 
 
 ## JORDAN
+> -Question:Should we name our website Team 11 ? what do you think? 
+> -Will we sell ONLY books? 
+> -Define Secure 
+> -Do we need to be Specific about Login URL?
+> -Do we really want to handle transactions? Would someone be interested in Premium service? Expecially if it is just doing one extra single search from libraries search engine? having FREE would put us on Competitive place and would be easy to maintain, secure. 
+> -Can we make this paragraph into more structured way? Fluent maybe?
+>                                                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Hasan)
+
 **Team11** solves scaled networking for college students reselling textbooks. Our team unified the core functions of e-commerce platforms into a single, complete architecture. Team11 has launched its Alpha program at **San Francisco State University**.
  **Team11** is built on top of one cutting edge software to provide high speed transactions for users. Our platform will be reliable, secure and customer tested when we go to market. 
  	We believe that existing peer to peer textbook sales platforms do not meet the needs for users and investors. In our platform, schools can work directly to update textbooks requirements for classes at their university using http://sfsuse.com/~sp17g11/_login.
@@ -39,6 +47,12 @@
 
 
 ## DARYL
+>-Well written!
+>-What about email confirmation message to get activated after registration. For security purposes. This way Jeremy can not use someone else's email address to register to our website.
+>-Same question, are we going to hadnle online transactions? It is a lot of work for Sally and us.
+>-Requiring Alexander to upload at least one photo requires us to create a link for users to report if irrelevant picture is uploaded.This arise another complication such as any user can report and spam the system,so should we implement it at Verified(Registered) User level? 
+>-WHat about rating system? student who purchased the item should be able to review and rate seller based on accuracy , and ease of reaching out to seller.
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Hasan)
 
 1. Jeremy is a student at SFSU with very limited technological skills who is logging on the website for the first time looking to buy a textbook. When first opening the webpage Jeremy is able to see a button prompting him to browse, which he selects. After that Jeremy is able to choose the “textbooks” category from a list of options and all the current items marked as textbooks appear initially sorted alphabetically. Jeremy doesn’t want to spend a lot of money so above the listings he sees the “sort” button and selects “price low to high” and the results are organized by price. Without logging in Jeremy is able to access the descriptions and pictures of items. When he presses the button to begin the transaction he is prompted to either log in to his account or register a new one. As a guest user with no prior account Jeremy must enter an sfsu email along with a password to create his account, as well as agree to our terms and services agreement that addresses all of the permissions the user grants to the site. Jeremy enters an email, which does not contain the sfsu.edu suffix, and upon pressing register is prompted to enter an sfsu email. After the account has been created Jeremy will be redirected to the Item page he was previously viewing, where he may use the messaging system to contact the seller, or use any of the sellers selected contact information where they can discuss price, meeting times, or deliver options. The records of their messages through the site will be saved for administrator mediation purposes, using the transaction number as a primary key, as stated in the terms and services agreement.
 
@@ -48,7 +62,8 @@
 
 3. Alexander is a student at SFSU who has previously used the website to make a purchase and now would like to post his own calculator for sale. Upon opening the site he presses the post button and is prompted to log in or register for an account, as a previously verified user Alexander enters his email and password and is logged in. Alexander enters the name of his Item, selects a category and is forced to upload at least one image of his Item and is able to add up to five total images, here he is also able to leave contact information for those interested in his Item. After he presses the post button on this page the information he entered into the page is added to the Item page where his calculator can be found under the calculator category for purchase. When a verified user wishes to communicate with Alexander about his post he will receive a notification in the messages tab that can be found from a link on the main page. 
 
-
+> **JORDAN** please review these, I can't find my own mistakes.
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Hasan)
 ## HASAN
 ***Guest User***  shall be able to:
 - browse in website freely.
@@ -71,6 +86,8 @@
 - furniture. 
 - mobility / commuting device. 
 
+> I am not sure if High level specs should have incluced the Data definitions above. Discuss it with the team.
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Hasan)
 ## ANTHONY 
 High-level functional specs
 1.  Users shall be able to...
@@ -124,7 +141,11 @@ High-level functional specs
  	h.)notify users of new messages
 	
 	
-
+>-VERY WELL WRITTEN
+>-Again, Are we really going to provide pay functionality?
+>-Application shall ve easy and trivial to use. Any one at any level should be able to use it wihtout too much hassle. Also Application shall provide minimum elegant , simplistic design that looks appealing and fully functional. We shouldn;t have too many elements on page so that user would take time to look for certain link or spend more than few seconds to find what he/she needs. (I am not talking about actual search)
+>-Instead of usinf Application shall be in each level, use one and bullet other properties aligned in the bottom.
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Hasan)
 ## HIN
 1.	Application shall be developed using class provided LAMP stack
 2.	Application shall be developed using pre-approved set of SW development and collaborative tools provided in the class. Any other tools or frameworks must  be be explicitly approved by Anthony Souza on a case by case basis.
@@ -154,6 +175,9 @@ High-level functional specs
 26. User account and information shall not be compromised in any way. 
 
 ## ANDRE
+>What kind of security do we guarantee?? What else can we put? Brainstorm with team,check other websites.
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Hasan)
+
 | **Features**| Team11 | Etsy |Amazon Custom  | Craigslist |
 | ------ | ------ | ------ | ------ | ------ |
 | Browse listings |+|+|+ |+
@@ -219,7 +243,8 @@ High-level system architecture
 
 
 
-
+>Team to edit and update. Criticize ME please...
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Hasan)
 
 ## HASAN
 
@@ -239,6 +264,8 @@ High-level system architecture
 •	Team found a time slot to meet  outside of the class - DONE
 
 •	CTO chosen and working out well so far - DONE
+
+•	Team used widely used Scrum teqniques to develop product - DONE
 
 •	Github master chosen - DONE
 
