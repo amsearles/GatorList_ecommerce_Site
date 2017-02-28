@@ -23,26 +23,20 @@
 
 
 ## JORDAN
-> -Question:Should we name our website Team 11 ? what do you think? 
-> -Will we sell ONLY books? 
-> -Define Secure 
-> -Do we need to be Specific about Login URL?
-> -Do we really want to handle transactions? Would someone be interested in Premium service? Expecially if it is just doing one extra single search from libraries search engine? having FREE would put us on Competitive place and would be easy to maintain, secure. 
-> -Can we make this paragraph into more structured way? Fluent maybe?
->                                                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Hasan)
+
 
 **Team11** solves scaled networking for college students reselling textbooks. Our team unified the core functions of e-commerce platforms into a single, complete architecture. Team11 has launched its Alpha program at **San Francisco State University**.
- **Team11** is built on top of one cutting edge software to provide high speed transactions for users. Our platform will be reliable, secure and customer tested when we go to market. 
- 	We believe that existing peer to peer textbook sales platforms do not meet the needs for users and investors. In our platform, schools can work directly to update textbooks requirements for classes at their university using http://sfsuse.com/~sp17g11/_login.
+ **Team11** is built on top of one cutting edge software to provide quick transactions for users. Our platform will be reliable, high performing and customer tested when we go to market. 
+ 	We believe that existing peer to peer textbook sales platforms do not meet the needs for users and investors. In our platform, schools can work directly to update textbooks requirements for classes at their university using [login page](http://sfsuse.com/~sp17g11/_login).
  	A scaled review process for textbook postings in the case of fraud is in place.
  
  **To the seller:** no markup will be placed on your book for using our system. 
- **To the buyer:** reach out to the seller using our secure platform. 
+ **To the buyer:** reach out to the seller using our quick and easy platform. 
  **To the school:** any book unavailable on our platform can be linked to the campus library/store at a small fee. Signing up for premium membership will qualify you in priority ad spacing.
+
+  Our team has compiled extensive research and practice implementing the latest design and features into web systems. 
  	
  	You can learn about our core software engineers at http://sfsuse.com/~sp17g11/about.php
- 
- Our team has compiled extensive research and practice implementing the latest design and features into web systems. 
  
 
 
