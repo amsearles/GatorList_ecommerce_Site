@@ -1,11 +1,11 @@
 | Name | Phase 1 | Phase 2 | FINAL  | Print & Review |
 | ------ | ------ | ------ | ------ | ------ |
-| HIN | Completed  | Completed |
-| JORDAN | Completed | Completed |
-| DARYL | Completed  | Completed |
-| ANDRE | Completed | Completed |
-| ANTHONY | Completed  | Completed |
-| HASAN | Completed | Completed |
+| HIN | Completed  | Completed | In progress |
+| JORDAN | Completed | Completed | In progress |
+| DARYL | Completed  | Completed | In progress |
+| ANDRE | Completed | Completed | In progress |
+| ANTHONY | Completed  | Completed | In progress |
+| HASAN | Completed | Completed | In progress |
 
 
 ## **STEPS**
