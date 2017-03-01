@@ -24,11 +24,11 @@
 
 ## Executive Summary
 
-Our website GATOR SHOP is for the use of SFSU students to buy and sell Items in a safe community enviorment. With this site Students will be able to set up deals and exchange items with ease never before seen amongst the community. Using our messaging system the students of San Francisco state will be able to, for the first time be able to organize on campus meetups and exchange items with a sense of safety that other websites such as Craigslist could never offer. 
+Our website GATOR SHOP is for the use of SFSU students to buy and sell Items in a safe community enviorment. With this site Students will be able to set up deals and exchange items with ease never before seen amongst the community. Using our messaging system the students of San Francisco State University will be able to organize; on campus meetups,an exchange of items with a sense of safety that other websites, such as Craigslist, could never offer, and an assurance that every item on our website is the genuine article. 
 
-We set out to conquer this task with exclusivity, students can rest safe knowing that the person that they've made this deal with online is another stuent such as themselves and as such it actually hepls to build on the already powerful sense of community on campus. This sense of community is also the edge that our site has over all the others, no other commmunity can claim to be as powerful as ours is at SFSU which is what will draw students of all ages and majors to our website. 
+We set out to conquer this task with exclusivity, students can rest safe knowing that the person that they've made this deal with online is another stuent such as themselves and as such it actually helps to build on the already powerful sense of community on campus. This sense of community is also the edge that our site has over all the others, no other commmunity can claim to be as strong as ours here at SFSU which is what will draw students of all ages and majors to our website. 
 
-This site is created using a small elite team of student programmers at SFSU and as such we know all the ins and outs of this community. There is no better team or project for this job. 
+This site is created using a small elite team of student programmers at SFSU and as such we know all the ins and outs of this community. Rest assured knowing that every member of this team has the dedication and willpower required to make this site something to be proud of. There is no better team for this job. 
 
  
 
@@ -36,15 +36,15 @@ This site is created using a small elite team of student programmers at SFSU and
 
 ###- Unverified User
 
-Jeremy is a student at SFSU with very limited technological skills who is logging on the website for the first time looking to buy an Item. Jeremy starts browsing the available items, to specify his search Jeremy chooses a catagory. To keep his purchase within his price limit Jeremy sorts the items by price. As an unverified user Jeremy is able to access the descriptions and pictures of items. When he attempts to proceed he is prompted to either log in to his account or register a new one. As a guest user with no prior account Jeremy must enter an sfsu email along with a password to create his account, as well as opt in to our terms and services agreement. Jeremy enters an email, which does not contain the sfsu.edu suffix, therefore before he is able to continue Jeremy is prompted to enter an sfsu email. After the account has been created Jeremy will be redirected to the Item page he was previously viewing, where he may use the messaging system to contact the seller, or use any of the sellers selected contact information where they can discuss price, meeting times, or deliver options. After the transastion Jeremy will be prompted to rate the seller. If there is a problem with the site or if the seller does something reportable he can contact support and the message will reach a site Admin. The records of their messages through the site will be saved for admin mediation purposes, as stated in the terms and services agreement.
+Jeremy is a student at SFSU with very limited technological skills who is browsing the website for the first time looking to buy an Item. Jeremy starts browsing the available items, to specify his search Jeremy can choose a catagory. To keep his purchase within his price limit Jeremy sorts the items by price. As an unverified user Jeremy is able to access the descriptions and pictures of items. When he attempts to proceed with his purchase he is prompted to either log in to his account or register a new one. As a guest user with no prior account Jeremy must enter an sfsu email along with a password to create his account, as well as opt in to our terms and services agreement. Jeremy enters an email, which does not contain the sfsu.edu suffix, so he must enter a valid sfsu email if he wishes to continue. After the account has been created Jeremy is redirected to the Item page he was previously viewing, where he may use the messaging system to contact the seller, or use any of the sellers selected contact information where they can discuss price, meeting times, or deliver options. After the transaction Jeremy will be prompted to rate the seller. If there is a problem with the site or if the seller does something reportable he can contact support and the message will reach a site Admin. The records of their messages through the site will be saved for admin mediation purposes, as stated in the terms and services agreement.
 
 ###- Admin
 
-Sally is a skilled Admin of the site who has opened the site and logged into her Admin account and sees a message in the support messages from a user about a dispute that has occured involving the site. As an admin Sally is able to find messages between the disputing parties. She is able to determine by reading through the chat logs that the seller was being misleading about the quality of the Item. Leaving the Item page Sally is able to block the seller's account from making sales, as well as remove thepage of the related item.
+Sally is a skilled Admin of GATOR SHOP who has opened the site and logged into her Admin account, she sees a message in the support messages from a user about a dispute that has occured involving the site. As an admin Sally is able to access all messages between the disputing parties. She is able to determine by reading through the chat logs that the seller was being misleading about the quality of the Item. Seeing a breach in the terms and services agreement, Sally now has the option to block the seller's account from making sales, as well as remove the page of the related item.
 
 ###- Verified User
 
-Alexander is a student at SFSU who has previously used the website to make a purchase and now would like to post his own calculator for sale. Upon opening the site and going to post he is prompted to log in or register for an account, as a previously verified user Alexander enters his email and password and is logged in. Alexander enters the name of his Item, selects a category and is forced to upload at least one image of his Item and is able to add additional images, here he is also able to leave contact information for those interested in his Item. After he is done Alexander can add his new item for sale to the list of available items to purchase. When a verified user wishes to communicate with Alexander about his post he will receive a notification via our messaging system. 
+Alexander is a student at SFSU who has previously used the website to make a purchase and now would like to post his own calculator for sale. Upon opening the site he proceeds to post his calculator for sale,but he is prompted to log in or register for an account. Since Alexander is a previously verified user he enters his email and password and is logged in. Alexander enters the name of his Item, selects a category and must upload at least one image of his Item (He has the option to upload additional images if he wishes to). Here he is also able to leave contact information for those interested in his Item. After he is done Alexander can add his new item for sale to the list of available items to purchase. When a verified user wishes to communicate with Alexander about his post he will receive a notification via our messaging system. 
 
 > **JORDAN** please review these, I can't find my own mistakes.
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Hasan)
@@ -69,6 +69,15 @@ Alexander is a student at SFSU who has previously used the website to make a pur
 - accessories or clothing.
 - furniture. 
 - mobility / commuting device. 
+
+***Username*** shall be:
+- non case-sensitive
+- be at least 6 characters long
+
+***Password*** shall be:
+- case sensitive
+- at least 6 characters long
+- contain at least 1 special character (e.g !@#$%^...)
 
 > I am not sure if High level specs should have incluced the Data definitions above. Discuss it with the team.
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Hasan)
@@ -103,6 +112,7 @@ High-level functional specs
  	c.)view message logs
 
  	d.)login/logout
+	
 	
 3. The application shall be able to...
 
@@ -147,17 +157,22 @@ High-level functional specs
 14.	Pay functionality (how to pay for goods and services) shall **not** be implemented.
 15.	Site security: basic best  practices shall be applied (as covered in the class)
 16.	Modern SE processes and practices shall be used as specified in the class, including collaborative and continuous SW development
-17.	The website shall prominently display the following text on all pages "SFSU Software Engineering Project, Spring 2017.  For Demonstration Only". (Important so as to not confuse this with a real application).
-18. Application shall provide user with adequate information on its functionality.
-19. Application shall not crash, and if it does, not constantly. 
-20. Application, in the event of a crash, shall be back up within 24 hours.
-21. Application shall be available during all hours except in the following cases: the website is taken down after the semester, the website has crashed, contract with webserver was expired, web server access right was violated by third parties, or there is a serious problem/bug that needs immediate addressing. 
-22. Application shall load all pages fast enough to satisfy the average user.
-23. Application shall not confuse the user with unnecessary information.
-24. Application shall provide users with all information necessary to acquire their product. 
-25. All user username and password shall be adequately protected.
-26. User account and information shall not be compromised in any way. 
-27. Application shall provide elegant, simplistic design that looks appealing and fully functional.
+17.	The website shall prominently display the following text on all pages "SFSU Software Engineering Project, Spring 2017.  For 		Demonstration Only". (Important so as to not confuse this with a real application).
+18.	 Application shall provide user with adequate information on its functionality.
+19. 	Application shall not crash, and if it does, not constantly. 
+20. 	Application, in the event of a crash, shall be back up within 24 hours.
+21. 	Application shall be available during all hours except in the following cases: the website is taken down after the semester, the 	 website has crashed, contract with webserver was expired, web server access right was violated by third parties, or there is a 	serious problem/bug that needs immediate addressing. 
+22. 	Application shall load all pages fast enough to satisfy the average user.
+23. 	Application shall not confuse the user with unnecessary information.
+24.	Application shall provide users with all information necessary to acquire their product. 
+25. 	All username and password shall be adequately protected.
+26.	All data shall be adequately stored. 
+27. 	User account and information shall not be compromised in any way. 
+28. 	Application shall provide elegant, simplistic design that looks appealing and fully functional.
+29. 	All data and access permissions can only be changed by system administrator. 
+30.	All data should be backed up and secured at least 1 time(s) a week. 
+31. 	General coding standards will be maintained; modular, readable, all brackets and semicolons in proper positions.
+32. 	Documentation of code will be easy and clear to understand. 
 
 ## ANDRE
 >What kind of security do we guarantee?? What else can we put? Brainstorm with team,check other websites.
