@@ -1,2 +1,2 @@
-#### GatorList
-## SFSU - CSc648 Final Project
+## GatorList
+#### SFSU - CSc648 Final Project
