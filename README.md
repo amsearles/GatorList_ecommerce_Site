@@ -1,6 +1,6 @@
 ## GatorList
 #### SFSU - CSc648 Final Project
-# Buy/Sell Items Website for SFSU students
+###### Buy/Sell Items Website for SFSU students
 
 #Team: 
 | Name | Role | 
