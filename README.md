@@ -1,8 +1,8 @@
 ## GatorList
 #### SFSU - CSc648 Final Project
-###### Buy/Sell Items Website for SFSU students
+###### Buy&Sell Items Website for SFSU students
 
-#Team: 
+####Team: 
 | Name | Role | 
 | ------ | ------ |
 | HASAN | Team Lead , Back End Developer |
