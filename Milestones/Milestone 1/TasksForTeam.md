@@ -11,7 +11,7 @@ Upload your portion with one of text editors under section name such as Section1
 
 I will pull it and format before class tomorrow. 
 
-4. Functional Specs
+Functional Specs
  
 Users shall be able to:
 
