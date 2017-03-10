@@ -29,7 +29,7 @@ Briefly describe behavior of each function using text (user action, output, navi
 Use data terms and names consistently with Data Dictionary and use cases.
 Make sure that the actual display of mockups in the hard copy documents is easy to read
 ***quick mockup I did.  Not sure if you guys want to show featured items like amazon or ebay does, or show images of different categories like etsy does.***
-![home-example-1st-draft](https://www.dropbox.com/s/mydlbl6nvca1hcj/home-example-1st-draft?dl=0&raw=1)
+![home-example-1st-draft](http://imgur.com/a/TWTkPd "Quick Mockup")
 
 # 6. High level Architecture, Database Organization 
 List main SW products/components used, including those determined by the instructors that you are using as part of the class (e.g. LAMP, server in Amazon Cloud, etc.). . 
