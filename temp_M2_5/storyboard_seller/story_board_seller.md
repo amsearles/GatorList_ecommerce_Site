@@ -1,5 +1,5 @@
 # Storyboard
-# Use Case: Verified USer
+# Use Case: Verified User
 
 ![](sell1.png)
 ![](sell2.png)
