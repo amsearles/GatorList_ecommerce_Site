@@ -5,9 +5,9 @@
 ####Team: 
 | Name | Role | 
 | ------ | ------ |
-| HASAN | Team Lead , Back End Developer |
-| JORDAN | CTO , Back End Developer | 
-| DARYL | GitHub Admin , Design  | 
+| HASAN | Team Lead , Universal Role |
+| JORDAN | CTO , Professional Player | 
+| DARYL | GitHub Admin , Design , Front End  | 
 | ANDRE | Design, Performance | 
 | ANTHONY | Front End Developer  |
-| HIN | Front & Back End | 
+| HIN | Documentation, Back End | 
