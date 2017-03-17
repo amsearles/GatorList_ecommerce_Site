@@ -2,7 +2,7 @@
 #### SFSU - CSc648 Final Project
 ###### Buy&Sell Items Website for SFSU students
 
-####Team: 
+#### Team: 
 
 | Name | Role | 
 | ------ | ------ |
