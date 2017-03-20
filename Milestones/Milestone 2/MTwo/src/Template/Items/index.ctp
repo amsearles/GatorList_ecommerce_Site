@@ -33,8 +33,7 @@
                 <th scope="col"><?= $this->Paginator->sort('title') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('description') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('url') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('created') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('modified') ?></th>
+                
                 <th scope="col" class="actions"><?= __('Actions') ?></th>
             </tr>
         </thead>
@@ -44,11 +43,10 @@
                 <td><?= $this->Number->format($item->id) ?></td>
                 <td><?= h($item->title) ?></td>
                 <td><?= h($item->description) ?></td>
-                
+               
                 <td><?php echo $this->Html->image($item->url, array('width' => 320, 'height' => 240)); ?></td> 
                
-                <td><?= h($item->created) ?></td>
-                <td><?= h($item->modified) ?></td>
+                
                 <td class="actions">
                     <?= $this->Html->link(__('View'), ['action' => 'view', $item->id]) ?>
                     <?= $this->Html->link(__('Edit'), ['action' => 'edit', $item->id]) ?>
