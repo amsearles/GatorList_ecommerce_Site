@@ -16,17 +16,21 @@ class ItemsController extends AppController
      *
      * @return \Cake\Network\Response|null
      */
-   
+    
+   //index function queries db for search results
     public function index()
     {
-        
+        //paginate items even if no search yet.
         $items = $this->paginate($this->Items);
+        //the form in /Items/index.ctp is a post request
         if($this->request->is('post')){
             //print_r($this->request->data);
-            
+            //how we query database for anything like the input field in our form.
+            // we called the form input field submit
+
             $item = $this->Items->find()->where(['title LIKE'=>'%'. 
                     $this->request->data["submit"] .'%']);
-            
+            //pagination is important for dynamic number of search results
             $items = $this->paginate($item);
         }
         
