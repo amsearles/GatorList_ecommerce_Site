@@ -13,6 +13,8 @@
 </nav>
 <div class="items index large-9 medium-8 columns content">
     
+    
+    <!-- this is where we generate the search bar -->
     <div class="search">
         <h3><?= __('Items') ?></h3>
         <form action="" method="post">
@@ -20,10 +22,10 @@
             <input type ="text" name="submit"/>
             <button type="submit">Submit</button>
         </form>
-    
-</div>
+        
+    </div>
 
-    
+    <!--this is where we set up the structure for our results -->
     <h3><?= __('Items') ?></h3>
     <table cellpadding="0" cellspacing="0">
         <thead>
@@ -38,6 +40,7 @@
             </tr>
         </thead>
         <tbody>
+            <!--this is where we loop through our index() that stores $items. notice photos are stored in file-dir but path in MySQL -->
             <?php foreach ($items as $item): ?>
             <tr>
                 <td><?= $this->Number->format($item->id) ?></td>
