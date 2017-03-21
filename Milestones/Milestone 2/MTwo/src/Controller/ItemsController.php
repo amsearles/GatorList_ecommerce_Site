@@ -22,7 +22,7 @@ class ItemsController extends AppController
         
         $items = $this->paginate($this->Items);
         if($this->request->is('post')){
-            print_r($this->request->data);
+            //print_r($this->request->data);
             
             $item = $this->Items->find()->where(['title LIKE'=>'%'. 
                     $this->request->data["submit"] .'%']);
