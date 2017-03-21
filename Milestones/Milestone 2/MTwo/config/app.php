@@ -229,9 +229,9 @@ return [
              * the following line and set the port accordingly
              */
             //'port' => 'non_standard_port_number',
-            'username' => 'jscandly',
-            'password' => 'Louise1976',
-            'database' => 'student_jscandly',
+            'username' => 'sp17g11',
+            'password' => 'fridaynight',
+            'database' => 'sp17g11',
             'encoding' => 'utf8',
             'timezone' => 'UTC',
             'flags' => [],
