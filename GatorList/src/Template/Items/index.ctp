@@ -47,7 +47,7 @@
                 <td><?= h($item->title) ?></td>
                 <td><?= h($item->description) ?></td>
                
-                <td><?php echo $this->Html->image($item->url, array('width' => 320, 'height' => 240)); ?></td> 
+                <td><a href="http://sfsuse.com/~sp17g11<?= $item->url ?>"><?php echo $this->Html->image($item->url, array('width' => 320, 'height' => 240)); ?></a></td> 
                
                 
                 <td class="actions">
