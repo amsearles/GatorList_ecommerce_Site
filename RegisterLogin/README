@@ -1,1 +1,5 @@
+So registering and logging in works. but there are still things i have to improve.
 
+- let users know know they are logged in in all pages
+- connect to team db(Easy)
+- figure out how to make sure login.php can mesh together with gatorlist.
