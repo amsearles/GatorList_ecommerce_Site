@@ -20,6 +20,7 @@
             echo $this->Form->control('title');
             echo $this->Form->control('description');
             echo $this->Form->control('url');
+            echo $this->Form->input('category_id');
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>

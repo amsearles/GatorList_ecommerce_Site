@@ -2,7 +2,8 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
-
+use App\Model\Entity\Category;
+use App\Model\Entity\Item;
 /**
  * Items Controller
  *
@@ -20,6 +21,7 @@ class ItemsController extends AppController
    //index function queries db for search results
     public function index()
     {
+       
         //paginate items even if no search yet.
         $items = $this->paginate($this->Items);
         //the form in /Items/index.ctp is a post request
@@ -29,7 +31,8 @@ class ItemsController extends AppController
             // we called the form input field submit
 
             $item = $this->Items->find()->where(['title LIKE'=>'%'. 
-                    $this->request->data["submit"] .'%']);
+                    $this->request->data["submit"] .'%'])->where(['category_id'=>    
+		    $this->request->data["category"]]);
             //pagination is important for dynamic number of search results
             $items = $this->paginate($item);
         }
@@ -76,6 +79,7 @@ class ItemsController extends AppController
         $users = $this->Items->Users->find('list', ['limit' => 200]);
         $this->set(compact('item', 'users'));
         $this->set('_serialize', ['item']);
+        
     }
 
     /**

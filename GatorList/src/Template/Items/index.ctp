@@ -20,6 +20,13 @@
         <form action="" method="post">
             <label> Search </label>
             <input type ="text" name="submit"/>
+            <label> Categories </label>
+             <select name="category">
+  <option value="1">Electronics</option>
+  <option value="2">Furniture</option>
+  <option value="3">Books</option>
+  <option value="4">Apparel</option>
+</select> 
             <button type="submit">Submit</button>
         </form>
         
@@ -35,7 +42,8 @@
                 <th scope="col"><?= $this->Paginator->sort('title') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('description') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('url') ?></th>
-                
+                <th scope="col"><?= $this->Paginator->sort('category_id') ?></th>
+
                 <th scope="col" class="actions"><?= __('Actions') ?></th>
             </tr>
         </thead>
@@ -49,7 +57,7 @@
                
                 <td><a href="http://sfsuse.com/~sp17g11<?= $item->url ?>"><?php echo $this->Html->image($item->url, array('width' => 320, 'height' => 240)); ?></a></td> 
                
-                
+                <td><?= h($item->category_id) ?></td>  
                 <td class="actions">
                     <?= $this->Html->link(__('View'), ['action' => 'view', $item->id]) ?>
                     <?= $this->Html->link(__('Edit'), ['action' => 'edit', $item->id]) ?>
