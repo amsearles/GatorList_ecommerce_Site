@@ -11,7 +11,7 @@
         <ul class="title-area large-3 medium-4 rows">
             <li class="name">
                 <h1>
-                <a href="http://sfsuse.com/~sp17g11/">Home</a>
+                <a href="http://sfsuse.com/~sp17g11/about.php">About Us</a>
                 </h1>
             </li>
             
