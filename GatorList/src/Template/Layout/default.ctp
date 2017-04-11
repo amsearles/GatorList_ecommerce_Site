@@ -35,15 +35,37 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 </head>
 <body>
     <nav class="top-bar expanded" data-topbar role="navigation">
-        <ul class="title-area large-3 medium-4 columns">
+        <ul class="title-area large-3 medium-4 rows">
             <li class="name">
-                <h1><a href=""><?= $this->fetch('title') ?></a></h1>
+                <h1>
+                <a href=""><?= $this->fetch('title') ?></a>
+                </h1>
             </li>
+            
+           
         </ul>
         <div class="top-bar-section">
-            <ul class="right">
-                <li><a target="_blank" href="http://book.cakephp.org/3.0/"></a></li>
-                <li><a target="_blank" href="http://api.cakephp.org/3.0/">API</a></li>
+            <ul class="left">
+                <li><a href="http://sfsuse.com/~sp17g11/">Home</a></li>
+                <li><a href="http://sfsuse.com/~sp17g11/items">Buy</a></li>
+                <li><a href="http://sfsuse.com/~sp17g11/items/add">Sell</a></li>
+                <li><a href="http://sfsuse.com/~sp17g11/about.php">About Us</a> </li>  
+                <li><a href="http://sfsuse.com/~sp17g11/items"> Search</a></li>
+                <li>
+                <div class="search">    
+            <form action="" method="post">
+            
+                <input type ="text" name="submit"/>
+           
+            </form>
+                    
+            </li>
+            <button>Submit  </button>
+            </ul>
+            <ul class ="right">
+                <li><a target="_blank" href="http://sfsuse.com/~sp17g11/login.php">Login</a></li>
+                <li><a target="_blank" href="http://sfsuse.com/~sp17g11/register.php">Register</a></li>
+                 <li><a target="_blank" href="http://api.cakephp.org/3.0/">API</a></li>
             </ul>
         </div>
     </nav>
