@@ -1,62 +1,55 @@
+
+
 <html>
-    <html lang="en">
-    <head>
-        <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
-        <meta charset="utf-8">
-        <title>Team 11</title>
-        <link rel="stylesheet" type="text/css" href="./css/style.css">
-        <meta name="generator" content="Bootply" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <meta name="description" content="" />
-        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="apple-touch-icon" href="/bootstrap/img/apple-touch-icon.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="/bootstrap/img/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="/bootstrap/img/apple-touch-icon-114x114.png">
-        
 <head>
-	<title>ZDR</title>
-	
-	<!--<link rel="stylesheet" type="text/css" href="buttons.css">
-	<link rel="stylesheet" type="text/css" href="images.css">-->
-</head>
-
-	
-    <div id="wrap">
-  
-  <!-- Fixed navbar -->
-  <div class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="index.php">Team 11</a> 
-      </div>
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li class=""><a href="index.php">Home</a></li>
-          <li class = "active"><a href="about.php">About</a></li>
-          <li class=""><a href = "index.php"><em class="">Buy & Sell SFSU TextBooks</em></a></li>
-          </ul>
-      </div><!--/.nav-collapse -->
-    </div>
-  </div>
-  
-  <!-- Begin page content -->
- </div> 
-
-    
-<body>	
-    <div class="hello">
-        
-    </div>
-	<section>
-		<div class="container">
-			<div class="left" style="text-align: center">	
+    <meta charset="utf-8"/>    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Gator List Home    </title>
+    <link href="/~sp17g11/favicon.ico" type="image/x-icon" rel="icon"/><link href="/~sp17g11/favicon.ico" type="image/x-icon" rel="shortcut icon"/>
+    <link rel="stylesheet" href="/~sp17g11/css/base.css"/>    <link rel="stylesheet" href="/~sp17g11/css/cake.css"/>
+            </head>
+            
+<body>
+<nav class="top-bar expanded" data-topbar role="navigation">
+        <ul class="title-area large-3 medium-4 rows">
+            <li class="name">
+                <h1>
+                <a href="http://sfsuse.com/~sp17g11/about.php">About Us</a>
+                </h1>
+            </li>
+            
+           
+        </ul>
+        <div class="top-bar-section">
+            <ul class="left">
+		<li><a href="http://sfsuse.com/~sp17g11/">Home</a></li>
+                <li><a href="http://sfsuse.com/~sp17g11/items">Buy</a></li>
+                <li><a href="http://sfsuse.com/~sp17g11/items/add">Sell</a></li>
+                <li><a href="http://sfsuse.com/~sp17g11/about.php">About Us</a> </li>  
+                <li><a href="http://sfsuse.com/~sp17g11/items"> Search</a></li>
+                <li>
+                <div class="search">    
+            <form action="" method="post">
+            
+                <input type ="text" name="submit"/>
+           
+            </form>
+                    
+            </li>
+            <button>Submit  </button>
+            </ul>
+            <ul class ="right">
+                <li><a target="_blank" href="http://sfsuse.com/~sp17g11/login.php">Login</a></li>
+                <li><a target="_blank" href="http://sfsuse.com/~sp17g11/register.php">Register</a></li>
+                 <li><a target="_blank" href="http://api.cakephp.org/3.0/">API</a></li>
+            </ul>
+        </div>
+    </nav>    
+<section>
+<div class="container">
+<div class="left" style="text-align: center">
                             <h1> Team 11 - 648 Software Engineering Project - Spring 17</h1>
-				<div class="imageWrapper">  
+<div class="imageWrapper">  
                                     <center>
                                     <table>
                                         <tr>
@@ -114,20 +107,14 @@
                                        
                                     </table>
                                     </center>
-				</div>
-				
-		
-                  	</div>
-             		
-				</div><br>
+</div>
+                  </div>
+             
+</div><br>
                
-			
-			<div class="right">
-				
-			</div>
-		
-	</section>
-    </body>
-  
-
+<div class="right">
+</div>
+</section>
+</body>
 </html>
+
