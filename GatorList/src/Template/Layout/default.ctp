@@ -46,6 +46,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         </ul>
         <div class="top-bar-section">
             <ul class="left">
+                <li><a href="http://sfsuse.com/~sp17g11/">Home</a></li>
                 <li><a href="http://sfsuse.com/~sp17g11/items">Buy</a></li>
                 <li><a href="http://sfsuse.com/~sp17g11/items/add">Sell</a></li>
                 <li><a href="http://sfsuse.com/~sp17g11/about.php">About Us</a> </li>  
@@ -62,8 +63,8 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
             <button>Submit  </button>
             </ul>
             <ul class ="right">
-                <li><a target="_blank" href="http://api.cakephp.org/3.0/">Login</a></li>
-                <li><a target="_blank" href="http://api.cakephp.org/3.0/">Register</a></li>
+                <li><a target="_blank" href="http://sfsuse.com/~sp17g11/login.php">Login</a></li>
+                <li><a target="_blank" href="http://sfsuse.com/~sp17g11/register.php">Register</a></li>
                  <li><a target="_blank" href="http://api.cakephp.org/3.0/">API</a></li>
             </ul>
         </div>
