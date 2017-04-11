@@ -11,7 +11,7 @@
         <ul class="title-area large-3 medium-4 rows">
             <li class="name">
                 <h1>
-                <a href="http://sfsuse.com/~sp17g11/about.php">About Us</a>
+                <a href=""><?= $this->fetch('title') ?></a>
                 </h1>
             </li>
             
@@ -19,6 +19,7 @@
         </ul>
         <div class="top-bar-section">
             <ul class="left">
+                <li><a href="http://sfsuse.com/~sp17g11/">Home</a></li>
                 <li><a href="http://sfsuse.com/~sp17g11/items">Buy</a></li>
                 <li><a href="http://sfsuse.com/~sp17g11/items/add">Sell</a></li>
                 <li><a href="http://sfsuse.com/~sp17g11/about.php">About Us</a> </li>  
