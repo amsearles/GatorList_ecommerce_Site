@@ -16,6 +16,7 @@
 - [ ] Remove Search Link
 - [ ] Change Submit Button Search
 - [ ] Move About Us button to far right before API
+- [ ] Update the same NAV BAR for ALL pages.
 
 #### Home Page
 
@@ -23,12 +24,32 @@
 - [ ] Add search bar to the middle like google
 - [ ] put for sample products underneath for HOT products (Implementation later)
 - [ ] Add Tiny footer for copyright
-- [ ] Create signup flow
-- [ ] Asset compilation and page speed
-- [ ] Asset bundling
-- [ ] Add --mockdata as a flag during build for people who have no DB connection
-- [ ] Open database api to admin user for easier db testing
-- [ ] Set up basic socket.io framework for chat
-- [ ] Add middleware for handling HTTP response codes (500, 404, etc)
-- [ ] Helper functions
-- [ ] Clean up Routing structure
+
+#### Login Page
+
+- [ ] Re-Format the entry fields
+- [ ] Remove Star on the left
+- [ ] Forgot password field?
+- [ ] Replace Login page to Logout after logged in
+- [ ] Show username afterwards on right top page
+
+#### Register Page
+
+- [ ] Format fields - shrink
+- [ ] All fields are mandatory no need for Star
+- [ ] type check for inputs
+- [ ] Sfsu email check
+
+
+#### Sell Page
+
+- [ ] Add necessary fields after login
+- [ ] Change Submit to Post
+
+#### Buy Page
+
+- [ ] TODO
+- [ ] TODO
+- [ ] TODO
+
+
