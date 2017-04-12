@@ -9,7 +9,7 @@
 - [ ] Restructor Whole REPO
 - [ ] Assign specific tasks within subTeam
 
-#### Nav Bar
+#### Nav Bar - Daryl
 
 - [ ] Category pull down Menu 
 - [ ] Move Home Button to the left like Daryl's example then change it GatorList
@@ -19,14 +19,14 @@
 - [ ] Update the same NAV BAR for ALL pages.
 - [ ] Add Tiny footer for copyright
 
-#### Home Page
+#### Home Page - Hasan
 
 - [ ] Remove gif and put LOGO and Welcome Message
 - [ ] Add search bar to the middle like google
 - [ ] put for sample products underneath for HOT products (Implementation later)
 - [ ] POINT to gatorlist.com in main page
 
-#### Login Page
+#### Login Page - Jordan & Hin
 
 - [ ] Re-Format the entry fields
 - [ ] Remove Star on the left
@@ -34,7 +34,7 @@
 - [ ] Replace Login page to Logout after logged in
 - [ ] Show username afterwards on right top page
 
-#### Register Page
+#### Register Page - Jordan & Hin
 
 - [ ] Format fields - shrink
 - [ ] All fields are mandatory no need for Star
@@ -42,17 +42,21 @@
 - [ ] Sfsu email check
 
 
-#### Sell Page
+#### Sell Page - Anthony
 
 - [ ] Add necessary fields after login
-- [ ] Change Submit to Post
+- [ ] Change button Submit to Post
 - [ ] Change the order of login and post
+- [ ] add categories and more relevant fields
 
-#### Buy Page
+
+#### Buy Page - Anthony & Jordan
 
 - [ ] Remove side panel (Action Bar) from buyers page but keep it in owners page.
 - [ ] Restrict editing and removing to other users similar to above.
 - [ ] Have thunmbnails fixed
 - [ ] Reorganize search style like in homepage
 
+
+#### Dashboard - Missing - Jordan
 
