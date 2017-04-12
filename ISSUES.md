@@ -46,6 +46,7 @@
 
 - [ ] Add necessary fields after login
 - [ ] Change Submit to Post
+- [ ] Change the order of login and post
 
 #### Buy Page
 
