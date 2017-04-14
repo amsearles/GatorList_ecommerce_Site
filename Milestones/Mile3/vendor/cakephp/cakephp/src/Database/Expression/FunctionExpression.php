@@ -25,8 +25,6 @@ use Cake\Database\ValueBinder;
  * constructed by passing the name of the function and a list of params.
  * For security reasons, all params passed are quoted by default unless
  * explicitly told otherwise.
- *
- * @internal
  */
 class FunctionExpression extends QueryExpression implements TypedResultInterface
 {
@@ -51,7 +49,7 @@ class FunctionExpression extends QueryExpression implements TypedResultInterface
      *
      * ### Examples:
      *
-     *  `$f = new FunctionExpression('CONCAT', ['CakePHP', ' rules']);`
+     * `$f = new FunctionExpression('CONCAT', ['CakePHP', ' rules']);`
      *
      * Previous line will generate `CONCAT('CakePHP', ' rules')`
      *

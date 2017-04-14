@@ -28,6 +28,8 @@ use Cake\Event\Event;
 class AppController extends Controller
 {
 
+    
+    
     /**
      * Initialization hook method.
      *
@@ -43,7 +45,11 @@ class AppController extends Controller
 
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
-
+	$this->loadComponent('Auth', [
+	'authenticate' => [
+	'Form' => [
+	'fields' => [
+	'username' => 'email', 'password' => 'password' ]]], 'loginAction' => ['controller' => 'Users', 'action' => 'login' ]]);
         /*
          * Enable the following components for recommended CakePHP security settings.
          * see http://book.cakephp.org/3.0/en/controllers/components/security.html
@@ -60,10 +66,28 @@ class AppController extends Controller
      */
     public function beforeRender(Event $event)
     {
+        
+        //$this->set('user', $this->Auth->user());
         if (!array_key_exists('_serialize', $this->viewVars) &&
             in_array($this->response->type(), ['application/json', 'application/xml'])
         ) {
             $this->set('_serialize', true);
         }
-    }
+    	
+
+	if($this->request->session()->read('Auth.User')){
+		$this->set('loggedIn', true);
+	}
+	else{
+		$this->set('loggedIn', false);
+	}
+	}
+        
+        public function beforeFilter(Event $event){
+         $this->Auth->allow(array('controller' => 'pages', 'action' => 'display'));
+        }
+        
+        
+        
+        
 }

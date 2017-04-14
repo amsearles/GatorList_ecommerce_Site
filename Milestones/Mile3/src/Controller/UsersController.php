@@ -2,7 +2,7 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
-
+use Cake\Event\Event;
 /**
  * Users Controller
  *
@@ -16,6 +16,8 @@ class UsersController extends AppController
      *
      * @return \Cake\Network\Response|null
      */
+    
+   
     public function index()
     {
         $users = $this->paginate($this->Users);
@@ -104,6 +106,45 @@ class UsersController extends AppController
             $this->Flash->error(__('The user could not be deleted. Please, try again.'));
         }
 
-        return $this->redirect(['action' => 'index']);
-    }
+        return $this->redirect(['action' => 'index']);    
+	}
+	public function login(){
+		if($this->request->is('post')){
+			$user = $this->Auth->identify();
+		
+		if($user){
+			$this->Auth->setUser($user);
+			return $this->redirect(['controller' => 'items']);
+		}
+		$this->Flash->error('Nope');
+		}
+	}
+
+	public function logout(){
+		$this->Flash->success('Logged out');
+		return $this->redirect($this->Auth->logout());
+	}
+	
+	public function register(){
+		$user = $this->Users->newEntity();
+		if($this->request->is('post')){
+			$user = $this->Users->patchEntity($user, $this->request->getData());
+			if($this->Users->save($user)){
+				$this->Flash->success(__('You registered, time to start selling'));
+				return $this->redirect(['action' => 'login']);
+			}
+			
+				$this->Flash->error(__('Something went wrong'));
+			
+
+		}
+		$this->set(compact('user'));
+		$this->set('_serialize', ['user']);
+
+	}
+	public function beforeFilter(Event $event){
+		$this->Auth->allow(['register', 'add', 'login', 'logout']);
+                
+	}
+
 }

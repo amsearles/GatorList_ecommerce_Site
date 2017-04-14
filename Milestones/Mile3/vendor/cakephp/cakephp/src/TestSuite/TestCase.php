@@ -24,12 +24,12 @@ use Cake\TestSuite\Constraint\EventFired;
 use Cake\TestSuite\Constraint\EventFiredWith;
 use Cake\Utility\Inflector;
 use Exception;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase as BaseTestCase;
 
 /**
  * Cake TestCase class
  */
-abstract class TestCase extends PHPUnit_Framework_TestCase
+abstract class TestCase extends BaseTestCase
 {
 
     /**
@@ -485,6 +485,7 @@ abstract class TestCase extends PHPUnit_Framework_TestCase
             }
 
             list($description, $expressions, $itemNum) = $assertion;
+            $expression = null;
             foreach ((array)$expressions as $expression) {
                 $expression = sprintf('/^%s/s', $expression);
                 if (preg_match($expression, $string, $match)) {
@@ -524,6 +525,7 @@ abstract class TestCase extends PHPUnit_Framework_TestCase
         $explains = $assertions['explains'];
         do {
             $matches = false;
+            $j = null;
             foreach ($asserts as $j => $assert) {
                 if (preg_match(sprintf('/^%s/s', $assert), $string, $match)) {
                     $matches = true;

@@ -62,12 +62,12 @@ class UsersTable extends Table
             ->allowEmpty('email');
 
         $validator
-            ->dateTime('create_time')
-            ->allowEmpty('create_time');
+            ->requirePresence('password', 'create')
+            ->notEmpty('password');
 
         $validator
-            ->requirePresence('user_password', 'create')
-            ->notEmpty('user_password');
+            ->dateTime('create_time')
+            ->allowEmpty('create_time');
 
         return $validator;
     }

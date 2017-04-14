@@ -2,8 +2,8 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
-use App\Model\Entity\Category;
-use App\Model\Entity\Item;
+use Cake\Event\Event;
+
 /**
  * Items Controller
  *
@@ -17,13 +17,12 @@ class ItemsController extends AppController
      *
      * @return \Cake\Network\Response|null
      */
-    
-   //index function queries db for search results
     public function index()
     {
        
         //paginate items even if no search yet.
         $items = $this->paginate($this->Items);
+        
         //the form in /Items/index.ctp is a post request
         if($this->request->is('post')){
             //print_r($this->request->data);
@@ -35,10 +34,12 @@ class ItemsController extends AppController
 		    $this->request->data["category"]]);
             //pagination is important for dynamic number of search results
             $items = $this->paginate($item);
+            
         }
         
         $this->set(compact('items'));
         $this->set('_serialize', ['items']);
+        
         
     }
 
@@ -79,7 +80,6 @@ class ItemsController extends AppController
         $users = $this->Items->Users->find('list', ['limit' => 200]);
         $this->set(compact('item', 'users'));
         $this->set('_serialize', ['item']);
-        
     }
 
     /**
@@ -127,6 +127,9 @@ class ItemsController extends AppController
 
         return $this->redirect(['action' => 'index']);
     }
-    
-    
+
+	public function beforeFilter(Event $event){
+		$this->Auth->allow(['index', 'view']);
+	}
+
 }

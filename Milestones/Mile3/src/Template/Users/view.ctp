@@ -26,8 +26,8 @@
             <td><?= h($user->email) ?></td>
         </tr>
         <tr>
-            <th scope="row"><?= __('User Password') ?></th>
-            <td><?= h($user->user_password) ?></td>
+            <th scope="row"><?= __('Password') ?></th>
+            <td><?= h($user->password) ?></td>
         </tr>
         <tr>
             <th scope="row"><?= __('Id') ?></th>

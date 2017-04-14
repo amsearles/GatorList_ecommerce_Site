@@ -376,10 +376,10 @@ class Router
      * Nested requests will create a stack of requests. You can remove requests using
      * Router::popRequest(). This is done automatically when using Object::requestAction().
      *
-     * Will accept either a Cake\Network\Request object or an array of arrays. Support for
+     * Will accept either a Cake\Http\ServerRequest object or an array of arrays. Support for
      * accepting arrays may be removed in the future.
      *
-     * @param \Cake\Http\ServerRequest|array $request Parameters and path information or a Cake\Network\Request object.
+     * @param \Cake\Http\ServerRequest|array $request Parameters and path information or a Cake\Http\ServerRequest object.
      * @return void
      */
     public static function setRequestInfo($request)
@@ -446,9 +446,8 @@ class Router
         throw new InvalidArgumentException('Unknown request type received.');
     }
 
-
     /**
-     * Pops a request off of the request stack.  Used when doing requestAction
+     * Pops a request off of the request stack. Used when doing requestAction
      *
      * @return \Cake\Http\ServerRequest The request removed from the stack.
      * @see \Cake\Routing\Router::pushRequest()
@@ -578,7 +577,7 @@ class Router
      *   cake relative URLs are required when using requestAction.
      * - `_scheme` - Set to create links on different schemes like `webcal` or `ftp`. Defaults
      *   to the current scheme.
-     * - `_host` - Set the host to use for the link.  Defaults to the current host.
+     * - `_host` - Set the host to use for the link. Defaults to the current host.
      * - `_port` - Set the port if you need to create links on non-standard ports.
      * - `_full` - If true output of `Router::fullBaseUrl()` will be prepended to generated URLs.
      * - `#` - Allows you to set URL hash fragments.
@@ -735,7 +734,7 @@ class Router
      * are used for CakePHP internals and should not normally be part of an output URL.
      *
      * @param \Cake\Http\ServerRequest|array $params The params array or
-     *     Cake\Network\Request object that needs to be reversed.
+     *     Cake\Http\ServerRequest object that needs to be reversed.
      * @param bool $full Set to true to include the full URL including the
      *     protocol when reversing the URL.
      * @return string The string that is the reversed result of the array
@@ -818,7 +817,7 @@ class Router
      * component to automatically switch to alternate layouts and templates, and
      * load helpers corresponding to the given content, i.e. RssHelper. Switching
      * layouts and helpers requires that the chosen extension has a defined mime type
-     * in `Cake\Network\Response`.
+     * in `Cake\Http\Response`.
      *
      * A string or an array of valid extensions can be passed to this method.
      * If called without any parameters it will return current list of set extensions.
@@ -856,7 +855,7 @@ class Router
      *
      * ### Options
      *
-     * - `separator` The string to use as a separator.  Defaults to `:`.
+     * - `separator` The string to use as a separator. Defaults to `:`.
      *
      * @param \Cake\Http\ServerRequest $request The request object to modify.
      * @param array $options The array of options.
