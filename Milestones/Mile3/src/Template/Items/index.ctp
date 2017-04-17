@@ -44,6 +44,9 @@
                 <th scope="col"><?= $this->Paginator->sort('description') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('url') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('category_id') ?></th>
+               <th scope="col"><?= $this->Paginator->sort('price') ?></th>
+
+
 
                 <th scope="col" class="actions"><?= __('Actions') ?></th>
             </tr>
@@ -58,7 +61,8 @@
                
                 <td><a href="http://sfsuse.com/~sp17g11<?= $item->url ?>"><?php echo $this->Html->image($item->url, array('width' => 320, 'height' => 240)); ?></a></td> 
                
-                <td><?= h($item->category_id) ?></td>  
+                <td><?= h($item->category_id) ?></td>
+                <td><?= h($item->price) ?></td>  
                 <td class="actions">
                     <?= $this->Html->link(__('View'), ['action' => 'view', $item->id]) ?>
                     <?= $this->Html->link(__('Edit'), ['action' => 'edit', $item->id]) ?>

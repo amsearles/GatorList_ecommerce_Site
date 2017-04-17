@@ -26,8 +26,10 @@
             echo $this->Form->control('title');
             echo $this->Form->control('description');
             echo $this->Form->control('url');
+            echo $this->Form->control('price');
+
         ?>
     </fieldset>
-    <?= $this->Form->button(__('Submit')) ?>
+    <?= $this->Form->button(__('Post')) ?>
     <?= $this->Form->end() ?>
 </div>

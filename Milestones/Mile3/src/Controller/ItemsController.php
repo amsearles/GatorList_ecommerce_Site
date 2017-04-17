@@ -78,7 +78,9 @@ class ItemsController extends AppController
             $this->Flash->error(__('The item could not be saved. Please, try again.'));
         }
         $users = $this->Items->Users->find('list', ['limit' => 200]);
+        $categorys = $this->Items->Categorys->find('list', ['limit' => 200]);
         $this->set(compact('item', 'users'));
+        $this->set(compact('item', 'categorys'));
         $this->set('_serialize', ['item']);
     }
 

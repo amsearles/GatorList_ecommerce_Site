@@ -44,6 +44,11 @@ class ItemsTable extends Table
             'foreignKey' => 'user_id',
             'joinType' => 'INNER'
         ]);
+        $this->belongsTo('Categorys', [
+            'foreignKey' => 'category_id',
+            'joinType' => 'INNER'
+        ]);
+
     }
 
     /**

@@ -16,12 +16,12 @@
     <fieldset>
         <legend><?= __('Add Item') ?></legend>
         <?php
-            echo $this->Form->control('user_id', ['options' => $users]);
             echo $this->Form->control('title');
             echo $this->Form->control('description');
             echo $this->Form->control('url');
+            echo $this->Form->control('category_id', ['options' => $categorys]);            echo $this->Form->control('price');
         ?>
     </fieldset>
-    <?= $this->Form->button(__('Submit')) ?>
+    <?= $this->Form->button(__('Post')) ?>
     <?= $this->Form->end() ?>
 </div>
