@@ -11,13 +11,13 @@
 
 #### Nav Bar - Daryl
 
-- [ ] Category pull down Menu 
+- [x] Category pull down Menu 
 - [ ] Move Home Button to the left like Daryl's example then change it GatorList
-- [ ] Remove Search Link
-- [ ] Change Submit Button Search
-- [ ] Move About Us button to far right before API
+- [x] Remove Search Link
+- [x] Change Submit Button Search
+- [x] Move About Us button to far right before API
 - [ ] Update the same NAV BAR for ALL pages.
-- [ ] Add Tiny footer for copyright
+- [x] Add Tiny footer for copyright
 
 #### Home Page - Hasan
 
