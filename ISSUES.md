@@ -45,9 +45,9 @@
 #### Sell Page - Anthony
 
 - [ ] Add necessary fields after login
-- [ ] Change button Submit to Post
-- [ ] Change the order of login and post
-- [ ] add categories and more relevant fields
+- [x] Change button Submit to Post
+- [x] Change the order of login and post
+- [x] add categories and more relevant fields
 
 
 #### Buy Page - Anthony & Jordan
