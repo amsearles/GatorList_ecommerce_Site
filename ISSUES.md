@@ -12,7 +12,7 @@
 #### Nav Bar - Daryl
 
 - [x] Category pull down Menu 
-- [ ] Move Home Button to the left like Daryl's example then change it GatorList
+- [x] Move Home Button to the left like Daryl's example then change it GatorList
 - [x] Remove Search Link
 - [x] Change Submit Button Search
 - [x] Move About Us button to far right before API
