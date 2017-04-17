@@ -28,16 +28,16 @@
 
 #### Login Page - Jordan & Hin
 
-- [ ] Re-Format the entry fields
-- [ ] Remove Star on the left
+- [x] Re-Format the entry fields
+- [x] Remove Star on the left
 - [ ] Forgot password field?
-- [ ] Replace Login page to Logout after logged in
-- [ ] Show username afterwards on right top page
+- [x] Replace Login page to Logout after logged in
+- [x] Show username afterwards on right top page
 
 #### Register Page - Jordan & Hin
 
-- [ ] Format fields - shrink
-- [ ] All fields are mandatory no need for Star
+- [x] Format fields - shrink
+- [x] All fields are mandatory no need for Star
 - [ ] type check for inputs
 - [ ] Sfsu email check
 
@@ -52,8 +52,8 @@
 
 #### Buy Page - Anthony & Jordan
 
-- [ ] Remove side panel (Action Bar) from buyers page but keep it in owners page.
-- [ ] Restrict editing and removing to other users similar to above.
+- [x] Remove side panel (Action Bar) from buyers page but keep it in owners page.
+- [x] Restrict editing and removing to other users similar to above.
 - [ ] Have thunmbnails fixed
 - [ ] Reorganize search style like in homepage
 
