@@ -9,7 +9,7 @@
 - [ ] Restructor Whole REPO
 - [ ] Assign specific tasks within subTeam
 
-#### Nav Bar - Daryl
+#### Nav Bar - Daryl & Andre
 
 - [x] Category pull down Menu 
 - [x] Move Home Button to the left like Daryl's example then change it GatorList
@@ -18,13 +18,16 @@
 - [x] Move About Us button to far right before API
 - [ ] Update the same NAV BAR for ALL pages.
 - [x] Add Tiny footer for copyright
+- [x] Converted Daryl's Nav Bar to a bootstrap version (optional)
 
-#### Home Page - Hasan
+#### Home Page - Hasan & Andre
 
 - [ ] Remove gif and put LOGO and Welcome Message
 - [ ] Add search bar to the middle like google
 - [ ] put for sample products underneath for HOT products (Implementation later)
 - [ ] POINT to gatorlist.com in main page
+- [x] Created Very Simple Logo (SVG) (On dreBranch)
+- [x] Made bootstrap template for homepage.
 
 #### Login Page - Jordan & Hin
 
