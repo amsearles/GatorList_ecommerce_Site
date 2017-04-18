@@ -2,7 +2,7 @@
         <ul class="title-area large-3 medium-4 rows">
             <li class="name">
                 <h1>
-                <a href=""><?= $this->fetch('title') ?></a>
+                <a href="http://sfsuse.com/~sp17g11/">Gator List</a>
                 </h1>
             </li>
             
@@ -14,18 +14,20 @@
                 <li><a href="http://sfsuse.com/~sp17g11/items">Browse</a></li>
                 <li><a href="http://sfsuse.com/~sp17g11/items/add">Sell</a></li>               
                  <!-- catagories -->
+                 <li>
+             <select name="category">
+                 <option value="4">Apparel</option>
+                 <option value="3">Books</option>
+                <option value="1">Electronics</option>
+                <option value="2">Furniture</option>     
+             </select>
+                </li>
                 <li>
                 <div class="search">    
             <form action="" method="post">
             
                 <input type ="text" name="submit"/>
-                <label> Categories </label>
-             <select name="category">
-                <option value="1">Electronics</option>
-                <option value="2">Furniture</option>
-                <option value="3">Books</option>
-                <option value="4">Apparel</option>
-             </select>
+                
             </form>
                     
             </li>
