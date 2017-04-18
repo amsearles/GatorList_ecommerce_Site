@@ -1,10 +1,11 @@
 I'm just typing out which files I need to import to team server.
 
+composer require 'davidyell/proffer:^0.7'
+
+Plugin::load('Proffer');
+
+
 index.ctp
 add.ctp
 Table.ctp
 bootstrap.php
-
-composer require 'davidyell/proffer:^0.7'
-
-Plugin::load('Proffer');
