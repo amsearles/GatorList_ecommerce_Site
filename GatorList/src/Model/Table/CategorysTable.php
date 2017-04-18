@@ -11,6 +11,11 @@ class CategorysTable extends Table
         $this->setTable('categories');
 
         $this->setPrimaryKey('category_id');
+        
+        $this->hasMany('Items', [
+            'foreignKey' => 'category_id'
+        ]);
+
 	
     }
 

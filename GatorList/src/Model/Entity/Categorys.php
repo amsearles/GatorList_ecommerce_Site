@@ -8,7 +8,7 @@ use Cake\ORM\Entity;
  * @property string $category
  * @property \App\Model\Entity\User $user
  */
-class Category extends Entity
+class Categorys extends Entity
 {
     /**
      * Fields that can be mass assigned using newEntity() or patchEntity().

@@ -1,6 +1,6 @@
 <html>
     <html lang="en">
-    <head>
+   <!-- <head>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
         <meta charset="utf-8">
         <title>Team 11</title>
@@ -14,6 +14,7 @@
         <link rel="apple-touch-icon" sizes="114x114" href="/bootstrap/img/apple-touch-icon-114x114.png">
         
 <head>
+-->
 	<title>Team 11</title>
 	
 	<!--<link rel="stylesheet" type="text/css" href="buttons.css">
@@ -24,25 +25,7 @@
     <div id="wrap">
   
   <!-- Fixed navbar -->
-  <div class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="index.php">Team 11</a> 
-      </div>
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li class=""><a href="index.php">Home</a></li>
-          <li class = "active"><a href="about.php">About</a></li>
-          <li class=""><a href = "http://sfsuse.com/~sp17g11/items"><em class="">Buy & Sell</em></a></li>
-          </ul>
-      </div><!--/.nav-collapse -->
-    </div>
-  </div>
+  
   
   <!-- Begin page content -->
  </div> 

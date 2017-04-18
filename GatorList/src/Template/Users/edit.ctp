@@ -24,8 +24,8 @@
         <?php
             echo $this->Form->control('username');
             echo $this->Form->control('email');
+            echo $this->Form->control('password');
             echo $this->Form->control('create_time');
-            echo $this->Form->control('user_password');
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>
