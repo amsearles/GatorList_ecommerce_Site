@@ -38,7 +38,9 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         <ul class="title-area large-3 medium-4 rows">
             <li class="name">
                 <h1>
-                <a href="http://sfsuse.com/~sp17g11/">Gator List</a>
+                <a href="http://sfsuse.com/~sp17g11/">
+                    <img src="./img/homepageLogo.jpg" class="photos"  >
+                </a>
                 </h1>
             </li>
             
@@ -46,12 +48,12 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         </ul>
         <div class="top-bar-section">
             <ul class="left">
-                <li><a href="http://sfsuse.com/~sp17g11/">Home</a></li>
                 <li><a href="http://sfsuse.com/~sp17g11/items">Browse</a></li>
                 <li><a href="http://sfsuse.com/~sp17g11/items/add">Sell</a></li>               
                  <!-- catagories -->
                  <li>
              <select name="category">
+                 <option value="5"> Default </option>
                  <option value="4">Apparel</option>
                  <option value="3">Books</option>
                 <option value="1">Electronics</option>
@@ -76,7 +78,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                  <li><a target="_blank" href="http://api.cakephp.org/3.0/">API</a></li>
             </ul>
         </div>
-    </nav>
+    </nav>    
     <?= $this->Flash->render() ?>
     <div class="container clearfix">
         <?= $this->fetch('content') ?>
