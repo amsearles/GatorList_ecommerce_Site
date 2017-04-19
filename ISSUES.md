@@ -18,15 +18,15 @@ mood down if you think that you are the one carrying the weight, soon you will f
 - [ ] Create terms and policy page
 - [ ] Have thunmbnails fixed
 - [ ] Put images at the end on submission
-- [ ] Add cancel Button
+- [x] Add cancel Button
 - [x] Fix Welcome USER section
 - [x] Put labels to Dashboard - messages and posts
 - [ ] Implement tabs in Dashboard
 - [ ] change buttons for view edit and delete
 - [ ] print product title in messages
 - [ ] Add hot items on HOMEPAGE
-- [ ] Sell - Fields needs to be smaller
-- [ ] Post button - change color
+- [x] Sell - Fields needs to be smaller
+- [x] Post button - change color
 - [ ] Have thunmbnails fixed
 - [ ] Keep the text in input page
 
