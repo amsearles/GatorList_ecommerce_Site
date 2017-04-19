@@ -385,7 +385,7 @@ table tr:nth-of-type(even) {
 fieldset {
     border: none;
     padding: 1.25rem;
-    margin: 1.125rem 0;
+    margin-left: 500px;
 }
 
 fieldset legend {
@@ -395,7 +395,7 @@ fieldset legend {
 }
 
 .form button[type="submit"] {
-    float: left;
+    float:right;
     text-transform: uppercase;
     box-shadow: none;
 }
