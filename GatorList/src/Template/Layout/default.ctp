@@ -42,8 +42,8 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         <ul class="title-area large-3 medium-4 rows">
             <li class="name">
                 <h1>
-                <a href="http://sfsuse.com/~jscandly/">
-                    <img src="http://sfsuse.com/~jscandly/img/homepageLogo.png" class="photos"  >
+                <a href="http://sfsuse.com/~sp17g11/">
+                    <img src="http://sfsuse.com/~sp17g11/img/homepageLogo.png" class="photos" height="500" width="200"  >
                 </a>
                 </h1>
             </li>
@@ -56,18 +56,18 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         <div class="top-bar-section">
             <ul class="left">
                 
-                <li><a href="http://sfsuse.com/~jscandly/items">Browse</a></li>
-                <li><a href="http://sfsuse.com/~jscandly/items/add">Sell</a></li>
-                <li><a href="http://sfsuse.com/~jscandly/about.php">About Us</a> </li>  
+                <li><a href="http://sfsuse.com/~sp17g11/items">Browse</a></li>
+                <li><a href="http://sfsuse.com/~sp17g11/items/add">Sell</a></li>
+                <li><a href="http://sfsuse.com/~sp17g11/about.php">About Us</a> </li>  
                 
                 <li>
                 <form action="" method="post">
                     <select name="category" style="width: 100px;">
-                    <option <?php foreach ($items as $item): ?> <?php $cat = $item->category_id ?> <?php if($cat == 4 ) echo 'selected' ; ?> <?php endforeach; ?> value="5" >All</option>
-                    <option <?php foreach ($items as $item): ?> <?php $cat = $item->category_id ?> <?php if($cat == 1 ) echo 'selected' ; ?><?php endforeach; ?> value="1" >Electronics</option>
-                    <option <?php foreach ($items as $item): ?> <?php $cat = $item->category_id ?> <?php if($cat == 2 ) echo 'selected' ; ?><?php endforeach; ?> value="2" >Furniture</option>
-                    <option <?php foreach ($items as $item): ?> <?php $cat = $item->category_id ?> <?php if($cat == 3 ) echo 'selected' ; ?><?php endforeach; ?> value="3" >Books</option>
-                    <option <?php foreach ($items as $item): ?> <?php $cat = $item->category_id ?> <?php if($cat == 4 ) echo 'selected' ; ?> <?php endforeach; ?> value="4" >Apparel</option>
+                    <option value="5" >All</option>
+                    <option value="1" >Electronics</option>
+                    <option value="2" >Furniture</option>
+                    <option value="3" >Books</option>
+                    <option value="4" >Apparel</option>
                     
                     </select> </li>
              <li><input size="30" type ="text" name="submit"/></li>

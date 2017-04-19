@@ -37,9 +37,9 @@
     </div>
 	<section>
 		<div class="container">
-			<div class="left" style="text-align: center">	
+			<div class="middle" style="text-align: center">	
                             <a href="index.php">
-                                                <img src="./img/GatorlistMainLogo.png" class="personal_page_photos" height="42" width="42" align="middle" ></a>
+                                                <img src="./img/GatorlistMainLogo.png" class="personal_page_photos" height="1000" width="500" align="center" ></a>
 				
 		
                   	</div>

@@ -15,7 +15,7 @@
             <li class="name">
                 <h1>
                 <a href="http://sfsuse.com/~sp17g11/">
-                    <img src="./img/homepageLogo.jpg" class="photos"  >
+                    <img src="http://sfsuse.com/~sp17g11/img/homepageLogo.png" class="photos" height="50" width="200"  >
                 </a>
                 </h1>
             </li>

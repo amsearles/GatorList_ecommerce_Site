@@ -17,6 +17,13 @@
     color: #404041;
 }
 
+
+.logo {
+    text-align:center;
+    display:block;
+}
+
+
 a {
     color: #0071BC;
     -webkit-transition: all 0.2s;

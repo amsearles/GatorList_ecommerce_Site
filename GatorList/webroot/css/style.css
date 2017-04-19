@@ -74,6 +74,10 @@ table {
     box-sizing: border-box;
 }
 
+.logo{
+text-align:center;
+display:block;
+}
 .headerImage {
     width: 100%;
 }
