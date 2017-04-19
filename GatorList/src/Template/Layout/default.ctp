@@ -115,6 +115,12 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         <?= $this->fetch('content') ?>
     </div>
     <footer>
+ 
+    </div>
+    <div class="top-bar expanded" data-topbar role="footer"><a href="http://sfsuse.com/~sp17g11/">Privacy Policy</a> <span><a class="middle" style="text-align="center" vertical-allign="middle" >SFSU Software Engineering Project &#169; Spring 2017 For Demonstration Only</a></span> <a class="right" href="http://sfsuse.com/~sp17g11/">Terms of Use</a></div>
+    </div>
+
+        
     </footer>
     
     
