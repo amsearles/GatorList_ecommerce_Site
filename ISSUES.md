@@ -11,16 +11,16 @@ mood down if you think that you are the one carrying the weight, soon you will f
 
 ### Notes from teacher
 
-- [ ] Remove Browse from Navbar
+- [x] Remove Browse from Navbar
 - [ ] Add sort by Price
-- [ ] Change Add item to Sell item
+- [x] Change Add item to Sell item
 - [ ] Have thunmbnails fixed
 - [ ] Put images at the end on submission
 - [ ] Add cancel Button
-- [ ] Fix Welcome USER section
+- [x] Fix Welcome USER section
 - [ ] Put labels to Dashboard - messages and posts
 - [ ] change buttons for view edit and delete
-- [ ] orint product title in messages
+- [ ] print product title in messages
 - [ ] Add hot items on HOMEPAGE
 - [ ] Sell - Fields needs to be smaller
 - [ ] Post button - change color

@@ -43,11 +43,9 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
             <li class="name">
                 <h1>
                 <a href="http://sfsuse.com/~sp17g11/">
-<<<<<<< HEAD
+
                     <img src="http://sfsuse.com/~sp17g11/img/homepageLogo.png" class="photos" height="500" width="200"  >
-=======
-                    <img src="http://sfsuse.com/~sp17g11/img/homepageLogo.png" class="photos"  >
->>>>>>> ea3bc073160678089f0c2c189e53ce63414ebe8e
+
                 </a>
                 </h1>
             </li>
@@ -60,9 +58,8 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         <div class="top-bar-section">
             <ul class="left">
                 
-                <li><a href="http://sfsuse.com/~sp17g11/items">Browse</a></li>
-                <li><a href="http://sfsuse.com/~sp17g11/items/add">Sell</a></li>
-                <li><a href="http://sfsuse.com/~sp17g11/about.php">About Us</a> </li>  
+                <li><a href="http://sfsuse.com/~sp17g11/items/add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sell &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+             
                 
                 <li>
                 <form action="" method="post">
@@ -76,6 +73,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                     </select> </li>
              <li><input size="30" type ="text" name="submit"/></li>
              <button type="submit">Search</button>
+             
         </form>
            
              <!-- 
@@ -95,8 +93,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
             <ul class="right">
                	<?php if($loggedIn) : ?>
                 
-                <li><?= $this->Html->link('Dashboard',['controller' => 'users', 'action' => 'dashboard']); ?></li>
-                <li> <a href = "" >Welcome, <?php $session = $this->request->session();
+                <li> <a href = "http://sfsuse.com/~sp17g11/users/dashboard" >Welcome, <?php $session = $this->request->session();
                                 $user_data = $session->read('Auth.User');
                                     if(!empty($user_data)){
                                        print_r($user_data['username']);
@@ -107,6 +104,8 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                         <li><?= $this->Html->link('Login', ['controller' => 'users', 'action' => 'login']); ?> </li>     
                         <li><?= $this->Html->link('Register', ['controller' => 'users', 'action' => 'register']); ?></li>
                 <?php endif; ?>
+                        <li><a href="http://sfsuse.com/~sp17g11/habout.php">About Us</a> </li>
+
 		 
             </ul>
         </div>

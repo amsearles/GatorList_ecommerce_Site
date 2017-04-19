@@ -7,7 +7,7 @@
 <div class="items form large-9 medium-8 columns content">
     <?= $this->Form->create($item) ?>
     <fieldset>
-        <legend><?= __('Add Item') ?></legend>
+        <legend><?= __('Sell Item') ?></legend>
         <?php
             echo $this->Form->control('title');
             echo $this->Form->control('description');
