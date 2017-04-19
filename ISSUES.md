@@ -14,11 +14,14 @@ mood down if you think that you are the one carrying the weight, soon you will f
 - [x] Remove Browse from Navbar
 - [ ] Add sort by Price
 - [x] Change Add item to Sell item
+- [x] Add footer page
+- [ ] Create terms and policy page
 - [ ] Have thunmbnails fixed
 - [ ] Put images at the end on submission
 - [ ] Add cancel Button
 - [x] Fix Welcome USER section
-- [ ] Put labels to Dashboard - messages and posts
+- [x] Put labels to Dashboard - messages and posts
+- [ ] Implement tabs in Dashboard
 - [ ] change buttons for view edit and delete
 - [ ] print product title in messages
 - [ ] Add hot items on HOMEPAGE
