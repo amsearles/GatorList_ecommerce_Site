@@ -9,11 +9,11 @@
     <fieldset>
         <legend><?= __('Sell Item') ?></legend>
         <?php
-            echo $this->Form->control('title');
-            echo $this->Form->control('description');
-            echo $this->Form->control('url');
-            echo $this->Form->control('category_id', ['options' => $categorys]);           
-            echo $this->Form->control('price');
+            echo $this->Form->control('title', array('style'=> 'width:300px; height:35px'));
+            echo $this->Form->control('description', array('style'=> 'width:300px; height:35px'));
+            echo $this->Form->control('url', array('style'=> 'width:300px; height:35px'));
+            echo $this->Form->control('category_id', array('options' => $categorys, 'style'=> 'width:300px; height:35px'));           
+            echo $this->Form->control('price', array('style'=> 'width:300px; height:35px'));
         ?>
     </fieldset>
     <?= $this->Form->button(__('Post')) ?>
