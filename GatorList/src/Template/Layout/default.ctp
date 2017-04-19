@@ -42,8 +42,8 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         <ul class="title-area large-3 medium-4 rows">
             <li class="name">
                 <h1>
-                <a href="http://sfsuse.com/~jscandly/">
-                    <img src="http://sfsuse.com/~jscandly/img/homepageLogo.png" class="photos"  >
+                <a href="http://sfsuse.com/~sp17g11/">
+                    <img src="http://sfsuse.com/~sp17g11/img/homepageLogo.png" class="photos"  >
                 </a>
                 </h1>
             </li>
@@ -56,9 +56,9 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         <div class="top-bar-section">
             <ul class="left">
                 
-                <li><a href="http://sfsuse.com/~jscandly/items">Browse</a></li>
-                <li><a href="http://sfsuse.com/~jscandly/items/add">Sell</a></li>
-                <li><a href="http://sfsuse.com/~jscandly/about.php">About Us</a> </li>  
+                <li><a href="http://sfsuse.com/~sp17g11/items">Browse</a></li>
+                <li><a href="http://sfsuse.com/~sp17g11/items/add">Sell</a></li>
+                <li><a href="http://sfsuse.com/~sp17g11/about.php">About Us</a> </li>  
                 
                 <li>
                 <form action="" method="post">
