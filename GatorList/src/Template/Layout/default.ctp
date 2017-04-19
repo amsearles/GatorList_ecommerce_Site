@@ -43,7 +43,11 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
             <li class="name">
                 <h1>
                 <a href="http://sfsuse.com/~sp17g11/">
+<<<<<<< HEAD
                     <img src="http://sfsuse.com/~sp17g11/img/homepageLogo.png" class="photos" height="500" width="200"  >
+=======
+                    <img src="http://sfsuse.com/~sp17g11/img/homepageLogo.png" class="photos"  >
+>>>>>>> ea3bc073160678089f0c2c189e53ce63414ebe8e
                 </a>
                 </h1>
             </li>

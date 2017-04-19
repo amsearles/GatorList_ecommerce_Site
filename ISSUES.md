@@ -1,13 +1,41 @@
 ### Branches
- We need to clear branches that are not active like dreBranch. 
- Each time you create a branch create for one specific task and ask a team member or Jordan to checc/merge.
- We need to avoid too many copies, and keep one current and working one. I Don't want to remove anything at this point.
+ Please CLONE git to your local branches and commit continously. 
+ We will be updating server once in 2 days.
+
+### NOTE: When there is a team, then there is always incidents that one or few members fall behind at certain tasks and you usually we see that they pick up and change the roles .
+It is normal to have some people working slow for some period of time. Thats wehere team steps in and covers for that person, next day he will cover one of us for sure. Thus, don't get your 
+mood down if you think that you are the one carrying the weight, soon you will find yourself on shoulders of your team mate :) thanks to each and every single of you.
+
+### Note 2: Hin & Daryl, could you please remove or re-organize folders in our main github page (i.e Register Login, navbar..)  I don't want to delete them blindly. And please close those unused branches to simplify.
+
+
+### Notes from teacher
+
+- [ ] Remove Browse from Navbar
+- [ ] Add sort by Price
+- [ ] Change Add item to Sell item
+- [ ] Have thunmbnails fixed
+- [ ] Put images at the end on submission
+- [ ] Add cancel Button
+- [ ] Fix Welcome USER section
+- [ ] Put labels to Dashboard - messages and posts
+- [ ] change buttons for view edit and delete
+- [ ] orint product title in messages
+- [ ] Add hot items on HOMEPAGE
+- [ ] Sell - Fields needs to be smaller
+- [ ] Post button - change color
+- [ ] Have thunmbnails fixed
+- [ ] Keep the text in input page
+
+
+
+
 
 ### Tasks and Issues
 
 - [x] Create an ISSUES file
-- [ ] Restructor Whole REPO
-- [ ] Assign specific tasks within subTeam
+- [x] Restructor Whole REPO
+- [ ] Help backend team !!! PRIORITY
 
 #### Nav Bar - Daryl & Andre
 
@@ -22,12 +50,13 @@
 
 #### Home Page - Hasan & Andre
 
-- [ ] Remove gif and put LOGO and Welcome Message
-- [ ] Add search bar to the middle like google
+- [x] Remove gif and put LOGO and Welcome Message
 - [ ] put for sample products underneath for HOT products (Implementation later)
 - [ ] POINT to gatorlist.com in main page
 - [x] Created Very Simple Logo (SVG) (On dreBranch)
 - [x] Made bootstrap template for homepage.
+- [ ] Migrate existing website to Bootstrap
+
 
 #### Login Page - Jordan & Hin
 
