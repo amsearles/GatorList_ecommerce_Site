@@ -23,26 +23,25 @@
            
         </ul>
         <div class="top-bar-section">
-            <ul class="left">
-                <li><a href="http://sfsuse.com/~sp17g11/items">Browse</a></li>
-                <li><a href="http://sfsuse.com/~sp17g11/items/add">Sell</a></li>               
-                 <!-- catagories -->
-                 <li>
-             <select name="category">
-                 <option value="5"> All </option>
-                 <option value="4">Apparel</option>
-                 <option value="3">Books</option>
-                <option value="1">Electronics</option>
-                <option value="2">Furniture</option>     
-             </select>
-                </li>
-                <li>
-                <div class="search">    
-            <form action="" method="post">
-            
-                <input type ="text" name="submit"/>
+             <ul class="left">
                 
-            </form>
+                <li><a href="http://sfsuse.com/~sp17g11/items/add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sell &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+             
+                
+                <li>
+             <form action="" method="post">
+                    <select name="category" style="width: 100px;">
+                    <option value="5" >All</option>
+                    <option value="1" >Electronics</option>
+                    <option value="2" >Furniture</option>
+                    <option value="3" >Books</option>
+                    <option value="4" >Apparel</option>
+                    
+                    </select> </li>
+             <li><input size="30" type ="text" name="submit"/></li>
+             <button type="submit">Search</button>
+             
+        </form>
                     
             </li>
             <button>Search  </button>
