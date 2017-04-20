@@ -44,7 +44,6 @@
         </form>
                     
             </li>
-            <button>Search  </button>
             </ul>
             <ul class ="right">
                 <li><a target="_blank" href="http://sfsuse.com/~sp17g11/login.php">Login</a></li>
