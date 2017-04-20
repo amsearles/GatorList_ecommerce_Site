@@ -6,7 +6,7 @@
 
 <div class="items form large-9 medium-8 columns content">
     <?= $this->Form->create($item) ?>
-    <fieldset>
+    <fieldset style = "margin-left:500px">
         <legend><?= __('Sell Item') ?></legend>
         <?php
             echo $this->Form->control('title', array('style'=> 'width:300px; height:35px'));
