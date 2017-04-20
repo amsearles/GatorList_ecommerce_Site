@@ -46,8 +46,8 @@
             </li>
             </ul>
             <ul class ="right">
-                <li><a target="_blank" href="http://sfsuse.com/~sp17g11/login.php">Login</a></li>
-                <li><a target="_blank" href="http://sfsuse.com/~sp17g11/register.php">Register</a></li>
+                <li><a target="_blank" href="http://sfsuse.com/~sp17g11/users/login">Login</a></li>
+                <li><a target="_blank" href="http://sfsuse.com/~sp17g11/users/register">Register</a></li>
                 <li><a href="http://sfsuse.com/~sp17g11/about.php">About Us</a> </li> 
                  <li><a target="_blank" href="http://api.cakephp.org/3.0/">API</a></li>
             </ul>
