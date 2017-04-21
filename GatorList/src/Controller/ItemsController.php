@@ -28,10 +28,11 @@ class ItemsController extends AppController
             //print_r($this->request->data);
             //how we query database for anything like the input field in our form.
             // we called the form input field submit
+                    $categories = $_POST['category'];
+                    $exp_cat = explode("|", $categories);
+                    $item = $this->Items->find()->where(['title LIKE'=>'%'.
+                    $this->request->data["submit"] .'%'])->where(['category_id IN'=>$exp_cat]);
             
-            $item = $this->Items->find()->where(['title LIKE'=>'%'. 
-                    $this->request->data["submit"] .'%'])->where(['category_id'=>    
-		    $this->request->data["category"]]);
             //pagination is important for dynamic number of search results
             $items = $this->paginate($item);
             
