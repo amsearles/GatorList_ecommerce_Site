@@ -45,7 +45,7 @@
                
                 <th scope="col"><?= $this->Paginator->sort('title') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('description') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('url') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('photo') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('category_id') ?></th>
                  <th scope="col"><?= $this->Paginator->sort('price') ?></th>
                 <th scope="col" class="actions"><?= __('Actions') ?></th>
@@ -59,7 +59,7 @@
                 <td><?= h($item->title) ?></td>
                 <td><?= h($item->description) ?></td>
                
-                <td><a href="http://sfsuse.com/~jscandly<?= $item->url ?>"><?php echo $this->Html->image($item->url, array('width' => 320, 'height' => 240)); ?></a></td> 
+                <td><?= $item->photo ?><?php echo $this->Html->image('items/photo/file/'.'square_'.$item->photo); ?></a></td>
                
                 <td><?= h($item->category_id) ?></td> 
                 <td>$<?= h($item->price) ?></td> 
