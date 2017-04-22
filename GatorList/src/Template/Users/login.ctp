@@ -9,7 +9,8 @@
 	<?php
 	echo $this->Form->control('email');
 	echo $this->Form->control('password');
-	?> 
+	?>
+        <a href="">Forgot Password?</a>
 	</fieldset>
         <div class="text-center"> <?= $this->Form->button('Login'); ?></div>
 	<?= $this->Form->end(); ?>
