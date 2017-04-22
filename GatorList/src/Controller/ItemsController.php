@@ -31,6 +31,7 @@ class ItemsController extends AppController
                     $categories = $_POST['category'];
                     $exp_cat = explode("|", $categories);
                     $item = $this->Items->find()->where(['title LIKE'=>'%'.
+                    $this->request->data["submit"] .'%'])->orWhere(['description LIKE'=>'%'. 
                     $this->request->data["submit"] .'%'])->where(['category_id IN'=>$exp_cat]);
             
             //pagination is important for dynamic number of search results
