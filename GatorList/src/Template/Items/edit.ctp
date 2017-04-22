@@ -12,8 +12,9 @@
             echo $this->Form->control('user_id', ['options' => $users]);
             echo $this->Form->control('title');
             echo $this->Form->control('description');
-            echo $this->Form->control('url');
             echo $this->Form->control('price');
+  echo $this->Form->control('photo', ['type' => 'file']);
+             echo $this->Form->control('photo_dir', array('type' => 'hidden'));
         ?>
     </fieldset>
     <?= $this->Form->button(__('Post')) ?>
