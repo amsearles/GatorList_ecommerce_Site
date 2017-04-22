@@ -20,8 +20,8 @@
             <td><?= h($item->description) ?></td>
         </tr>
         <tr>
-            <th scope="row"><?= __('Url') ?></th>
-            <td><?= h($item->url) ?></td>
+            <th scope="row"><?= __('Photo') ?></th>
+            <td><?= h($item->photo) ?></td>
         </tr>
         <tr>
             <th scope="row"><?= __('Id') ?></th>
