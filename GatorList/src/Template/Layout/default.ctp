@@ -66,8 +66,8 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                     <select name="category" style="width: 100px;">
                     <option value="1|2|3|4" >All</option>
                     <option value="1" >Electronics</option>
-                    <option value="2" >Furniture</option>
-                    <option value="3" >Books</option>
+                    <option value="3" >Furniture</option>
+                    <option value="2" >Books</option>
                     <option value="4" >Apparel</option>
                     
                     </select> </li>
