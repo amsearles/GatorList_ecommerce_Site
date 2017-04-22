@@ -25,7 +25,8 @@
         </form>
         
     </div> -->
-    <!--
+   
+<!--
 <form action="" method="post">
                <select name="category">
                    <?php foreach ($categories as $category): ?>
@@ -41,7 +42,7 @@
     <table cellpadding="0" cellspacing="0">
         <thead>
             <tr>
-                <th scope="col"><?= $this->Paginator->sort('id') ?></th>
+                <!--<th scope="col"><?= $this->Paginator->sort('id') ?></th>-->
                
                 <th scope="col"><?= $this->Paginator->sort('title') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('description') ?></th>
@@ -55,7 +56,7 @@
             <!--this is where we loop through our index() that stores $items. notice photos are stored in file-dir but path in MySQL -->
             <?php foreach ($items as $item): ?>
             <tr>
-                <td><?= $this->Number->format($item->id) ?></td>
+                <!--<td><?= $this->Number->format($item->id) ?></td>-->
                 <td><?= h($item->title) ?></td>
                 <td><?= h($item->description) ?></td>
                
