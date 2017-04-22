@@ -64,7 +64,7 @@
                
                 <td><?= h($item->category_id) ?></td> 
                 <td>$<?= h($item->price) ?></td> 
-                <td class="actions"
+                <td class="actions">
                    <?= $this->Html->link(__('View'), ['action' => 'view', $item->id]) ?>
                     <!--<?= $this->Html->link(__('Edit'), ['action' => 'edit', $item->id]) ?>
                     <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $item->id], ['confirm' => __('Are you sure you want to delete # {0}?', $item->id)]) ?>-->
