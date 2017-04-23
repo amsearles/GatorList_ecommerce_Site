@@ -39,7 +39,7 @@ class ItemsTable extends Table
         $this->setPrimaryKey('id');
 
         $this->addBehavior('Timestamp');
-      <!--   $this->addBehavior('Proffer.Proffer', [
+      /*   $this->addBehavior('Proffer.Proffer', [
     'photo' => [    // The name of your upload field
         'root' => WWW_ROOT. 'img', // Customise the root upload folder here, or omit to use the default
         'dir' => 'photo_dir',    // The name of the field to store the folder
@@ -56,7 +56,9 @@ class ItemsTable extends Table
         ],
         'thumbnailMethod' => 'gd'    // Options are Imagick or Gd
     ]
-]); -->
+]); 
+*
+*/
 
         $this->belongsTo('Users', [
             'foreignKey' => 'user_id',
