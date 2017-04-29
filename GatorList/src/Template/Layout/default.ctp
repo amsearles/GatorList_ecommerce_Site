@@ -104,7 +104,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                         <li><?= $this->Html->link('Login', ['controller' => 'users', 'action' => 'login']); ?> </li>     
                         <li><?= $this->Html->link('Register', ['controller' => 'users', 'action' => 'register']); ?></li>
                 <?php endif; ?>
-                        <li><a href="http://sfsuse.com/~sp17g11/about.php">About Us</a> </li>
+                        <li><a href="http://sfsuse.com/~sp17g11/about">About Us</a> </li>
 
 		 
             </ul>
