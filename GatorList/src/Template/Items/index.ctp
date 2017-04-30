@@ -59,7 +59,7 @@
                 <td><?= h($item->title) ?></td>
                 <td><?= h($item->description) ?></td>
                
-                <td><?= $item->photo ?><?php echo $this->Html->image('items/photo/file/'.'square_'.$item->photo); ?></a></td>
+                <td><!--<?= $item->photo ?> --><?= $item->photo ?><?php echo $this->Html->image('items/photo/file/'.'square_'.$item->photo); ?></a></td>
                
                 <td><?= h($item->category_id) ?></td> 
                 <td>$<?= h($item->price) ?></td> 
