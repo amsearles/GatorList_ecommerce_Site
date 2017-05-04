@@ -1,7 +1,7 @@
 # Code Review
 
-Comments in black written in email are from a peer review of the code.
-Any text that is purple came from original sender expecting feedback.
+- Comments in black written in email are from a peer review of the code.
+- Any text that is purple came from original sender expecting feedback.
 
 
     
