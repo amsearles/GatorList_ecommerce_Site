@@ -34,17 +34,11 @@ One risk is that the connection to our site might be interrupted during testing.
 3. Lastly, user searchs on the sell page and see if the results are consistent with the previous cases
 
 3.)This final test case is to check corner cases of our database. In our database with we have a 'math book', a 'math hat' and a 'math cup'.The expected results should be that the user is only shown the product of a specific category.
-
-
-1.User navigates to the home page
-
-2.User searches for 'math' in the books category. Expected Output: Only 'math book' is shown
-
-3.User searches for 'math' in the furniture category. Expected Output: Only 'math cup' is shown
-
-4.User searches for 'math' in the apparel category. Expected Output: Only 'math hat' is shown
-
-5.User searches for 'math' in the 'ALL' category. Expected Output: 'math book', 'math cup', and 'math hat' is shown.
+1. User navigates to the home page
+2. User searches for 'math' in the books category. Expected Output: Only 'math book' is shown
+3. User searches for 'math' in the furniture category. Expected Output: Only 'math cup' is shown
+4. User searches for 'math' in the apparel category. Expected Output: Only 'math hat' is shown
+5. User searches for 'math' in the 'ALL' category. Expected Output: 'math book', 'math cup', and 'math hat' is shown.
 
 | Test # 	|                                           Description                                                                                                                                           	| Input       	|                                       Expected Output                                                                                                                                                                                                                                                                                                                                                         	| PASS/FAIL 	| NOTES |
 |--------	|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|-------------	|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|-----------	|-----------	|
