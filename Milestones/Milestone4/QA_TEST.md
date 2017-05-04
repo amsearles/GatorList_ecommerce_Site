@@ -5,7 +5,7 @@
 
 
 ### Hardware Setup: 
-Testing will be done on a laptop and desktop, both running windows. Also on a laptop running Ubuntu 16.04.
+Testing will be done on a laptop running Ubuntu 16.04LTS.
 
 ### Software Setup: 
 
