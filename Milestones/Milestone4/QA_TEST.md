@@ -9,7 +9,7 @@ Testing will be done on a laptop running Ubuntu 16.04LTS.
 
 ### Software Setup: 
 
-Testing will be done of the site using multiple browsers running the lastest versions: Firefox, Chrome, and Safari. The actual product is hosted on aws server running a LAMP stack. Our current state of the product is in the early beta stage.
+Testing will be done of the site using multiple browsers running the lastest versions of Firefox and Chrome. The actual product is hosted on aws server running a LAMP stack. Our current state of the product is in the early beta stage.
 
 ### Feature to be Tested:
 
