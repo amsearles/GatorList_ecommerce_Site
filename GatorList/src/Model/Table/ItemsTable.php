@@ -59,6 +59,21 @@ class ItemsTable extends Table
 ]); 
 *
 */
+         $this->addBehavior('Search.Search');
+         $this->searchManager()
+            ->value('category_id')
+          //'search' is the name we give to the form bar
+                 //we use %LIKE% to search our table for any matching input from user
+            ->add('search', 'Search.Like', [
+                'before' => true,
+                'after' => true,
+                'fieldMode' => 'OR',
+                'comparison' => 'LIKE',
+                'wildcardAny' => '*',
+                'wildcardOne' => '?',
+                'field' => ['title', 'description'] //we want search to work for user input in 
+                                                    //title and decription
+            ]);
 
         $this->belongsTo('Users', [
             'foreignKey' => 'user_id',
