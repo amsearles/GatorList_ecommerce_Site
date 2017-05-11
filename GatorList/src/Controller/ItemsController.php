@@ -19,12 +19,24 @@ class ItemsController extends AppController
      */
     public function index()
     {
-       
+            $categorys = $this->Items->Categorys->find('list', ['limit' => 200]);
+       $this->set(compact('item', 'categorys'));
+    
         //paginate items even if no search yet.
         $items = $this->paginate($this->Items);
+	    
+	     $items = $this->Items
+        // Use the plugins 'search' custom finder and pass in the
+        // processed query params
+        ->find('search', ['search' => $this->request->query])
+              
+        // You can add extra things to the query if you need to
+        //->contain(['description'])
+        ->where(['title IS NOT' => null]);
+        $this->set('items', $this->paginate($items));
         
         //the form in /Items/index.ctp is a post request
-        if($this->request->is('post')){
+     /*   if($this->request->is('post')){
             //print_r($this->request->data);
             //how we query database for anything like the input field in our form.
             // we called the form input field submit
@@ -38,12 +50,23 @@ class ItemsController extends AppController
             $items = $this->paginate($item);
             
         }
+	*
+	*/
         
         $this->set(compact('items'));
         $this->set('_serialize', ['items']);
         
         
     }
+	
+	  public function initialize()
+{
+    parent::initialize();
+    $this->loadComponent('Search.Prg', [
+      //specify which action you want search to work in
+        'actions' => ['index','view']
+    ]);
+}
 
     /**
      * View method
