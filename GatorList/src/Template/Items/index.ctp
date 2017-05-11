@@ -3,6 +3,20 @@
 /**
   * @var \App\View\AppView $this
   */
+ echo $this->Form->create();
+    // You'll need to populate $authors in the template from your controller
+   
+    // Match the search param in your table configuration
+  //echo $this->Form->input('category_id',);
+ echo $this->Form->create();
+
+  echo $this->Form->input('category_id', array('empty'=>'All','options' => $categorys,'style'=> 'width:300px; height:35px'));
+    echo $this->Form->input('search');
+    echo $this->Form->button('Search', ['type' => 'submit']);
+    echo $this->Html->link('Reset', ['action' => 'index']);
+    
+    
+    echo $this->Form->end();
 ?>
 
 <div class="items index large-9 medium-8 columns content">
