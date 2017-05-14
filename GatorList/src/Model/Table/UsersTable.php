@@ -60,9 +60,13 @@ class UsersTable extends Table
             ->requirePresence('username', 'create')
             ->notEmpty('username');
 
+       ///^.+@sfsu\.com$/i
         $validator
-            ->email('email')
-            ->allowEmpty('email');
+            ->requirePresence('email')
+                ->add('email','required',['rule'=>['email'],
+                        'message' => "Email must contain @sfsu.com"]
+                        )
+            ->notEmpty('email');
 
         $validator
             ->requirePresence('password', 'create')
@@ -73,6 +77,11 @@ class UsersTable extends Table
             ->allowEmpty('create_time');
 
         return $validator;
+    }
+     public function email($check){
+        $value = array_values($check);
+        $value = $value[0];
+        return preg_match('sfsu',$value);
     }
 
     /**
