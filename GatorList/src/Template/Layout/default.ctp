@@ -71,7 +71,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                     <option value="4" >Apparel</option>
                     
                     </select> </li>
-             <li><input size="30" type ="text" name="submit"/></li>
+             <li><input style="max-width:300px;" size="30" type ="text" name="submit"/></li>
              <button type="submit">Search</button>
              
         </form>
