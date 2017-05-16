@@ -58,6 +58,33 @@ class ItemsController extends AppController
         
         
     }
+	public function index2()
+    {
+       
+        //paginate items even if no search yet.
+        $items = $this->paginate($this->Items);
+        
+        //the form in /Items/index.ctp is a post request
+        if($this->request->is('post')){
+            //print_r($this->request->data);
+            //how we query database for anything like the input field in our form.
+            // we called the form input field submit
+                    $categories = $_POST['category'];
+                    $exp_cat = explode("|", $categories);
+                    $item = $this->Items->find()->where(['title LIKE'=>'%'.
+                    $this->request->data["submit"] .'%'])->orWhere(['description LIKE'=>'%'. 
+                    $this->request->data["submit"] .'%'])->where(['category_id IN'=>$exp_cat]);
+            
+            //pagination is important for dynamic number of search results
+            $items = $this->paginate($item);
+            
+        }
+        
+        $this->set(compact('items'));
+        $this->set('_serialize', ['items']);
+        
+        
+    }
 	
 	  public function initialize()
 {
@@ -161,7 +188,7 @@ class ItemsController extends AppController
     }
 
 	public function beforeFilter(Event $event){
-		$this->Auth->allow(['index', 'view']);
+		$this->Auth->allow(['index','index2', 'view']);
 	}
         
         public function isAuthorized($user)
