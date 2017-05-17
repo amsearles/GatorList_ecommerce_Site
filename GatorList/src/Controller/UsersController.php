@@ -66,6 +66,11 @@ class UsersController extends AppController
     
     public function send()
     {
+        $this->loadModel('Items');
+        $item = $this->Items->get($id, [
+            'contain' => ['Users']
+        ]);
+
         $message = $this->Users->Messages->newEntity();
         if ($this->request->is('post')) {
             $message = $this->Users->Messages->patchEntity($message, $this->request->getData());
@@ -76,7 +81,12 @@ class UsersController extends AppController
             }
             $this->Flash->error(__('The message did not send. Please, try again.'));
         }
-        $senders = $this->Auth->user('id');
+        
+        
+        
+        $this->set('item', $item);
+        $this->set('_serialize', ['item']);
+        //$senders = $this->Auth->user('id');
         $users = $this->Users->find('list', ['limit' => 200]);
         $this->set(compact('message', 'users', 'senders'));
         
@@ -129,14 +139,14 @@ class UsersController extends AppController
 	}
 	public function login(){
 		if($this->request->is('post')){
-			$user = $this->Auth->identify();
-		
-		if($user){
-			$this->Auth->setUser($user);
-			return $this->redirect(['controller' => 'items']);
-		}
-		$this->Flash->error('Nope');
-		}
+            $user = $this->Auth->identify();
+        
+        if($user){
+            $this->Auth->setUser($user);
+            return $this->redirect(['controller' => 'items']);
+        }
+        $this->Flash->error('Try again');
+        }
 	}
 
 	public function logout(){
@@ -163,22 +173,60 @@ class UsersController extends AppController
 	}
         
        public function dashboard($id = null){
-           if($id == $this->Auth->user('id')){
+            if($id == $this->Auth->user('id')){
            $user = $this->Users->get($id, [
             'contain' => ['Items'] 
              ]);
+           $username = $this->Auth->user('username');
            
-            $message = $this->Users->get($id, ['contain' => ['Messages']]);
+           $message = $this->Users->get($id, ['contain' => ['Messages']]);
+           $this->loadModel('Messages');
+           $mess = $this->Messages->find()->where(['sender_id' => $id]);
+           $messy = $this->Messages->find()->where(['user_id' => $id]);
+           
+           
+           //foreach($mess as $messy):
+           $userid = $this->Users->find();
+                  // ->where(['id' => $messy->user_id]);
+          
+            //endforeach;
+           
+             
+           
+            $messages = $this->paginate($mess);
+            $messages1 = $this->paginate($messy);
+            $userids = $this->paginate($userid);
+            
+             //$sentmess = $this->Messages->find()->where(['user_id'=>$id]);
+           // $sentmess = $this->Users->get($id, ['contain' => ['sentMessages']]);
+            //$sentmessage = $this->User->find('all', 'contain' =>)
+           // $messages = $this->Users->find()->where(['user_id' => $id]);
             $this->set('user', $user);
             $this->set('message', $message);
+            $this->set('username', $username);
+            $this->set('userids', $userids);
+            $this->set('messages', $messages);
+            $this->set('messages1', $messages1);
+            
+            
+            $this->set(compact('messages'));
+            $this->set('_serialize', ['messages']);
+            
+            
+            
+            
+           // $this->set('sentmess', $sentmess);
                  
                 $this->set('_serialize', ['user']);
                 $this->set('_serialize', ['message']);
+                
+               // $this->set('_serialize', ['sentmess']);
                  
             }
              else{
                  return $this->redirect([$this->Auth->user('id')]);
              }
+        
         }
         
         
@@ -195,19 +243,20 @@ class UsersController extends AppController
             return false;
          }
 
-        // Check that the bookmark belongs to the current user.
+        // Check that the item belongs to the current user.
         $id = $this->request->getParam('pass.0');
         $item = $this->Items->get($id);
+        //$messages = $this->Messages->get($id);
          if ($item->user_id == $user['id']) {
             return true;
            }
             return parent::isAuthorized($user);
         }
         
-        
-	public function beforeFilter(Event $event){
-		$this->Auth->allow(['register', 'add', 'login', 'logout']);
-                
-	}
+    public function beforeFilter(Event $event){
+        $this->Auth->allow(['register', 'add', 'login', 'logout']);
+                 $user_id = $this->Auth->user('id');
+                 $this->set(compact('item', 'user_id'));
+    }
 
 }

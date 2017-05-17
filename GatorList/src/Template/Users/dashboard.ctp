@@ -105,17 +105,67 @@ div.tab button.active {
 
     <div id="Messages" class="tabcontent">
         <h3>Messages</h3>
-        <p>No any message yet...</p>
+        <table cellpadding="0" cellspacing="0">
+        <tr>
+                <th scope="col"><?= $this->Paginator->sort('username') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('id') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('message') ?></th>
+               
+            </tr>
+            <tbody>
+        <?php if (!empty($message->messages)): ?>
+        <table cellpadding="0" cellspacing="0">
+            
+            <?php foreach ($message->messages as $message): ?>
+           
+            <tr>
+                <td><?php foreach($userids as $use):
+                if($use->id == $message->user_id){echo $use->username;} 
+                endforeach; ?></td>
+                <td><?php foreach($userids as $use):
+                if($use->id == $message->sender_id){echo $use->username;}
+                endforeach;?></td>
+                
+                <td><?= h($message->message) ?></td>
+
+            </tr>
+            <?php endforeach; ?>
+            
+        </table>
+        <?php endif; ?>
+        
+       
+            
+            <!--this is where we loop through our index() that stores $items. notice photos are stored in file-dir but path in MySQL -->
+
+            <!-- I am not sure how the comment above got here(probably me(jordan)) and then i (re)moved stuff.
+            Anyways this has our message table data. this along with the code above this comment, all the way to the <div id="Messages"...> tag opener -->
+            <?php foreach ($messages as $mess): ?>
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                <td> <?php foreach ($userids as $use): 
+                    if($use->id == $mess->user_id){echo $use->username;}
+                    endforeach;
+                     ?></td>
+                <td> <?php foreach ($userids as $use):
+                    if($use->id == $mess->sender_id){echo $use->username;}
+                    endforeach;
+                     ?></td>
+        
+                
+                <td> <?= h($mess->message) ?></td>
+                </tr>
+            
+            </table>
+            <?php endforeach; ?>
+    </tbody>
+            
+           </table>
     </div>
 
     <div id="Items" class="tabcontent">
         <h3>Items</h3>
-        <p>Not found any of your item for sale ..</p> 
-    </div>
-
-  
-    
-    <div class="related">
+        <p><div class="related">
         <h4><?= __('Related Items') ?></h4>
         <?php if (!empty($user->items)): ?>
         <table cellpadding="0" cellspacing="0">
@@ -148,27 +198,15 @@ div.tab button.active {
         </table>
         <?php endif; ?>
  
-        <?php if (!empty($message->messages)): ?>
-        <table cellpadding="0" cellspacing="0">
-            <tr>
-                <th scope="col"><?= __('user_id') ?></th>
-                <th scope="col"><?= __('sender_id') ?></th>
-                <th scope="col"><?= __('Message') ?></th>
-                <th scope="col"><?= __('Modified') ?></th>
-                <th scope="col" class="actions"><?= __('Actions') ?></th>
-            </tr>
-            <?php foreach ($message->messages as $messages): ?>
-            <tr>
-                <td><?= h($messages->recipient_id) ?></td>
-                <td><?= h($messages->sender_id) ?></td>
-                <td><?= h($messages->message) ?></td>
-
-            </tr>
-            <?php endforeach; ?>
-        </table>
-        <?php endif; ?>
         
+        
+    </div></p>
+        <!--<p>Not found any of your item for sale ..</p> -->
     </div>
+
+  
+    
+    
 </div>
 
 <script>

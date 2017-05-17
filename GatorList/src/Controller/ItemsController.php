@@ -129,9 +129,10 @@ class ItemsController extends AppController
             }
             $this->Flash->error(__('The item could not be saved. Please, try again.'));
         }
+        $user_id = $this->Auth->user('id');
         $users = $this->Items->Users->find('list', ['limit' => 200]);
         $categorys = $this->Items->Categorys->find('list', ['limit' => 200]);
-        $this->set(compact('item', 'users'));
+        $this->set(compact('item', 'users', 'user_id'));
         $this->set(compact('item', 'categorys'));
         $this->set('_serialize', ['item']);
     }
@@ -188,21 +189,22 @@ class ItemsController extends AppController
     }
 
 	public function beforeFilter(Event $event){
-		$this->Auth->allow(['index','index2', 'view']);
-	}
+        $this->Auth->allow(['index', 'view', 'index2']);
+        $user_id = $this->Auth->user('id');
+        $this->set(compact('item', 'user_id'));
+    }
         
-        public function isAuthorized($user)
-        {
-              $action = $this->request->getParam('action');
+    public function isAuthorized($user){
+        $action = $this->request->getParam('action');
 
         // The add and index actions are always allowed.
-                if (in_array($action, ['index', 'view', 'add', 'delete', 'edit'])) {
-            return true;
-        }
+            if (in_array($action, ['index', 'view', 'add', 'delete', 'edit'])) {
+                return true;
+            }
         // All other actions require an id.
-         if (!$this->request->getParam('pass.0')) {
-            return false;
-         }
+            if (!$this->request->getParam('pass.0')) {
+                return false;
+            }
 
         // Check that the bookmark belongs to the current user.
         $id = $this->request->getParam('pass.0');

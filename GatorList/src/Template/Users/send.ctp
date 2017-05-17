@@ -9,8 +9,15 @@
     <fieldset>
         <legend><?= __('Message') ?></legend>
         <?php
-            echo $this->Form->control('user_id', ['options' => $users] );
-            echo $this->Form->control('sender_id');
+            $usersid = $item->user->id;
+            $productid = $item->id;
+            echo $item->user->username;
+            //echo "<br>";
+            echo $productid;
+            echo $this->Form->control('user_id', ['value' => $productid]);
+            echo $this->Form->control('user_id', ['value' => $usersid] );
+            echo $this->Form->hidden('sender_id', array('value'=>$user_id)) ;
+            //echo $this->Form->control('sender_id');
             //echo $senders;
             echo $this->Form->control('message');
           

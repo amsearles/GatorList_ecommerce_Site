@@ -9,7 +9,7 @@
     <fieldset>
         <legend><?= __('Edit Item') ?></legend>
         <?php
-            echo $this->Form->control('user_id', ['options' => $users]);
+        echo $this->Form->hidden('user_id', array('value'=>$user_id)) ;
             echo $this->Form->control('title');
             echo $this->Form->control('description');
             echo $this->Form->control('price');
