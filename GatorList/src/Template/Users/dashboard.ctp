@@ -166,7 +166,7 @@ div.tab button.active {
     <div id="Items" class="tabcontent">
         <h3>Items</h3>
         <p><div class="related">
-        <h4><?= __('Related Items') ?></h4>
+        
         <?php if (!empty($user->items)): ?>
         <table cellpadding="0" cellspacing="0">
             <tr>
