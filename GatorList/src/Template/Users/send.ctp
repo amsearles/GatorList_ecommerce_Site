@@ -12,10 +12,10 @@
             $usersid = $item->user->id;
             $productid = $item->id;
             echo $item->user->username;
-            //echo "<br>";
-            echo $productid;
-            echo $this->Form->control('user_id', ['value' => $productid]);
-            echo $this->Form->control('user_id', ['value' => $usersid] );
+            echo "<br>";
+            echo 'Item ID: ', $item->title;
+            echo $this->Form->hidden('item_id', ['value' => $productid]);
+            echo $this->Form->hidden('user_id', ['value' => $usersid] );
             echo $this->Form->hidden('sender_id', array('value'=>$user_id)) ;
             //echo $this->Form->control('sender_id');
             //echo $senders;

@@ -107,6 +107,7 @@ div.tab button.active {
         <h3>Messages</h3>
         <table cellpadding="0" cellspacing="0">
         <tr>
+                <th scope="col"><?= $this->Paginator->sort('id') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('username') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('id') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('message') ?></th>
@@ -119,6 +120,7 @@ div.tab button.active {
             <?php foreach ($message->messages as $message): ?>
            
             <tr>
+            <td><?= h($message->item_id) ?></td>
                 <td><?php foreach($userids as $use):
                 if($use->id == $message->user_id){echo $use->username;} 
                 endforeach; ?></td>
@@ -143,6 +145,7 @@ div.tab button.active {
             <?php foreach ($messages as $mess): ?>
             <table cellpadding="0" cellspacing="0">
                 <tr>
+                <td><?php echo $mess->item_id ?></td>
                 <td> <?php foreach ($userids as $use): 
                     if($use->id == $mess->user_id){echo $use->username;}
                     endforeach;
