@@ -13,7 +13,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-$cakeDescription = 'CakePHP: the rapid development php framework';
+$cakeDescription = 'GatorList';
 
 //$session = $this->request->session();
 //$user_data = $session->read('Auth.User');
@@ -42,7 +42,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         <ul class="title-area large-3 medium-4 rows">
             <li class="name">
                 <h1>
-                <a href="http://sfsuse.com/~jscandly">
+                <a href="http://sfsuse.com/~hpvong/GatorList">
                     <img src="http://sfsuse.com/~sp17g11/GatorList/img/homepageLogo.png" class="photos"  >
                 </a>
                 </h1>
@@ -57,23 +57,11 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
             <ul class="left">
                 
                 
-                <li><a href="http://sfsuse.com/~sp17g11/GatorList/items/add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sell&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-                 
+               
+               
                 
                 <li>
-                <form action="" method="post">
-                    <select name="category" style="width: 100px;">
-                         <?php foreach ($items as $item): ?> <?php $cat = $item->category_id ?> <?php if($cat == 1 ) echo 'selected' ; ?><?php endforeach; ?> 
-                    <option value="5" >All</option>
-                    <option value="4" >Apparel</option>
-                    <option value="3" >Books</option>
-                    <option value="1" >Electronics</option>
-                    <option value="2" >Furniture</option>
-                    </select> 
-                </li>
-                    <li><input size="30" type ="text" name="submit"/></li> 
-                   <?php echo $this->Html->link("Submit", array('controller' => 'items','action'=> 'index'), array( 'class' => 'button')); ?> 
-                        </form>
+                
                     
                     
                     
@@ -109,9 +97,12 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                                     if(!empty($user_data)){
                                        print_r($user_data['username']);
                                        } ?>!</a></li>
+                <li><?= $this->Html->link('Sell', ['controller' => 'items', 'action' => 'add']); ?> </li> 
                 
 		 <li><?= $this->Html->link('Logout', ['controller' => 'users', 'action' => 'logout']); ?></li>
                     <?php else : ?>
+                  
+                    <li><?= $this->Html->link('Sell', ['controller' => 'items', 'action' => 'add']); ?> </li> 
                         <li><?= $this->Html->link('Login', ['controller' => 'users', 'action' => 'login']); ?> </li>     
                         <li><?= $this->Html->link('Register', ['controller' => 'users', 'action' => 'register']); ?></li>
                 <?php endif; ?>

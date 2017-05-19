@@ -13,6 +13,7 @@ class ComposerStaticInitba8b1d3000a9d355424255baa773c1b6
         'ede59e3a405fb689cd1cebb7bb1db3fb' => __DIR__ . '/..' . '/cakephp/cakephp/src/Collection/functions.php',
         '90236b492da7ca2983a2ad6e33e4152e' => __DIR__ . '/..' . '/cakephp/cakephp/src/I18n/functions.php',
         'b1fc73705e1bec51cd2b20a32cf1c60a' => __DIR__ . '/..' . '/cakephp/cakephp/src/Utility/bootstrap.php',
+        'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         'e7223560d890eab89cda23685e711e2c' => __DIR__ . '/..' . '/psy/psysh/src/Psy/functions.php',
     );
@@ -40,12 +41,14 @@ class ComposerStaticInitba8b1d3000a9d355424255baa773c1b6
             'Seld\\PharUtils\\' => 15,
             'Seld\\JsonLint\\' => 14,
             'Seld\\CliPrompt\\' => 15,
+            'Search\\' => 7,
         ),
         'P' => 
         array (
             'Psy\\' => 4,
             'Psr\\Log\\' => 8,
             'Psr\\Http\\Message\\' => 17,
+            'Proffer\\' => 8,
             'PhpParser\\' => 10,
             'Phinx\\' => 6,
         ),
@@ -56,6 +59,14 @@ class ComposerStaticInitba8b1d3000a9d355424255baa773c1b6
         'J' => 
         array (
             'JsonSchema\\' => 11,
+        ),
+        'I' => 
+        array (
+            'Intervention\\Image\\' => 19,
+        ),
+        'G' => 
+        array (
+            'GuzzleHttp\\Psr7\\' => 16,
         ),
         'D' => 
         array (
@@ -142,6 +153,10 @@ class ComposerStaticInitba8b1d3000a9d355424255baa773c1b6
         array (
             0 => __DIR__ . '/..' . '/seld/cli-prompt/src',
         ),
+        'Search\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/friendsofcake/search/src',
+        ),
         'Psy\\' => 
         array (
             0 => __DIR__ . '/..' . '/psy/psysh/src/Psy',
@@ -153,6 +168,10 @@ class ComposerStaticInitba8b1d3000a9d355424255baa773c1b6
         'Psr\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-message/src',
+        ),
+        'Proffer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/davidyell/proffer/src',
         ),
         'PhpParser\\' => 
         array (
@@ -169,6 +188,14 @@ class ComposerStaticInitba8b1d3000a9d355424255baa773c1b6
         'JsonSchema\\' => 
         array (
             0 => __DIR__ . '/..' . '/justinrainbow/json-schema/src/JsonSchema',
+        ),
+        'Intervention\\Image\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/intervention/image/src/Intervention/Image',
+        ),
+        'GuzzleHttp\\Psr7\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
         ),
         'DebugKit\\Test\\Fixture\\' => 
         array (

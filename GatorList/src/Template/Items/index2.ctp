@@ -1,3 +1,19 @@
+<style>
+   .input{
+       display:inline-block;
+   height:auto;
+       position:relative;
+       box-sizing:border-box;
+      
+   }
+   
+   #search{
+       width: 100%;
+   }
+   
+   
+
+</style>
 <?php
  
 /**
@@ -49,6 +65,55 @@
     
     -->
     <!--this is where we set up the structure for our results -->
+    
+      <?php
+
+//echo
+
+
+/**
+  * @var \App\View\AppView $this
+  */
+
+    
+ echo $this->Form->create('submit', array('url' => '/Items/'));
+
+  echo $this->Form->control('category_id', array('empty'=>'All',
+      'options' => $categorys,
+      'style'=> 'width:px;'));
+   
+  //trying to set rules for the input search here
+  //like search filtering and making input alphaNumeric
+  echo $this->Form->input('search',array(
+      'div' => array(
+        'id' => 'search',
+        'title' => 'Div Title',
+        'style' => 'display:block'
+    ),
+      
+      'empty' => 'Search',
+       'style'=> 'width:740px',
+        'maxLength'=>'20',
+      'name' => 'search',
+      'type' => 'text',
+      'search' => 'alphaNumeric',
+      'options' => 'email'
+      
+    ));
+  
+ 
+ 
+   
+    echo $this->Form->button('Search', ['type' => 'submit']);
+    echo $this->Html->link('Reset', ['action' => 'index']);
+    
+    
+    echo $this->Form->end();
+ 
+    
+
+?>
+    
     <h3> <center style="color:red;"> Hot <?= __('Items') ?></center></h3>
         <?php $x = 1; ?>
         <?php foreach ($items as $item): ?>

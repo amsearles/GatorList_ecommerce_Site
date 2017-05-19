@@ -57,12 +57,37 @@ class ItemsTable extends Table
         'thumbnailMethod' => 'gd'    // Options are Imagick or Gd
     ]
 ]);
+         $this->addBehavior('Search.Search');
+         $this->searchManager()
+            ->value('category_id')
+          //'search' is the name we give to the form bar
+                 //we use %LIKE% to search our table for any matching input from user
+            ->add('search', 'Search.Like', [
+                'filterEmpty' => true,
+                'before' => true,
+                'after' => true,
+                'fieldMode' => 'OR',
+                'comparison' => 'LIKE',
+                'wildcardAny' => '*',
+                'wildcardOne' => '?',
+                'field' => ['title', 'description'], //we want search to work for user input in title and description
+                ['rule'=>['email'],
+                    'message' => "must contain alphanumeric"]     
+               
+            ]);
+           $validate = ['search' => array(
+            'rule' =>('notempty'),
+        'message' => "Search is required",
+        'required' =>true
+            )
+        
+            ];
 
         $this->belongsTo('Users', [
             'foreignKey' => 'user_id',
             'joinType' => 'INNER'
         ]);
-        $this->belongsTo('Categorys', [
+       $this->belongsTo('Categorys', [
             'foreignKey' => 'category_id',
             'joinType' => 'INNER'
         ]);
