@@ -3,27 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/Ditdo/Desktop/648/prototype/T11/GatorList/src/Template/Items/edit.ctp</file>
-            <file>file:/Users/Ditdo/Desktop/648/prototype/T11/GatorList/src/Template/Items/index.ctp</file>
-            <file>file:/Users/Ditdo/Desktop/648/prototype/T11/GatorList/src/View/AppView.php</file>
-            <file>file:/Users/Ditdo/Desktop/648/prototype/T11/GatorList/src/Controller/AppController.php</file>
-            <file>file:/Users/Ditdo/Desktop/648/prototype/T11/GatorList/webroot/css/home.css</file>
-            <file>file:/Users/Ditdo/Desktop/648/prototype/T11/GatorList/src/Template/Users/edit.ctp</file>
-            <file>file:/Users/Ditdo/Desktop/648/prototype/T11/GatorList/src/Controller/ErrorController.php</file>
-            <file>file:/Users/Ditdo/Desktop/648/prototype/T11/GatorList/src/Template/Items/add.ctp</file>
-            <file>file:/Users/Ditdo/Desktop/648/prototype/T11/GatorList/src/View/AjaxView.php</file>
-            <file>file:/Users/Ditdo/Desktop/648/prototype/T11/GatorList/src/Controller/UsersController.php</file>
-            <file>file:/Users/Ditdo/Desktop/648/prototype/T11/GatorList/src/Application.php</file>
-            <file>file:/Users/Ditdo/Desktop/648/prototype/T11/GatorList/webroot/about.php</file>
-            <file>file:/Users/Ditdo/Desktop/648/prototype/T11/GatorList/src/Template/Items/view.ctp</file>
-            <file>file:/Users/Ditdo/Desktop/648/prototype/T11/GatorList/src/Template/Pages/home.ctp</file>
-            <file>file:/Users/Ditdo/Desktop/648/prototype/T11/GatorList/webroot/css/style.css</file>
-            <file>file:/Users/Ditdo/Desktop/648/prototype/T11/GatorList/src/Template/Layout/error.ctp</file>
-            <file>file:/Users/Ditdo/Desktop/648/prototype/T11/GatorList/webroot/css/base.css</file>
-            <file>file:/Users/Ditdo/Desktop/648/prototype/T11/GatorList/src/Template/Users/register.ctp</file>
-            <file>file:/Users/Ditdo/Desktop/648/prototype/T11/GatorList/src/Template/Users/index.ctp</file>
-            <file>file:/Users/Ditdo/Desktop/648/prototype/T11/GatorList/src/Controller/PagesController.php</file>
-            <file>file:/Users/Ditdo/Desktop/648/prototype/T11/GatorList/src/Template/Layout/default.ctp</file>
+            <file>file:/Applications/MAMP/htdocs/PhpProject2/src/Template/Users/send.ctp</file>
+            <file>file:/Applications/MAMP/htdocs/PhpProject2/src/Template/Items/index.ctp</file>
+            <file>file:/Applications/MAMP/htdocs/PhpProject2/webroot/css/cake.css</file>
+            <file>file:/Applications/MAMP/htdocs/PhpProject2/src/Controller/ItemsController.php</file>
+            <file>file:/Applications/MAMP/htdocs/PhpProject2/src/Template/Users/dashboard.ctp</file>
+            <file>file:/Applications/MAMP/htdocs/PhpProject2/src/Controller/UsersController.php</file>
         </group>
     </open-files>
 </project-private>

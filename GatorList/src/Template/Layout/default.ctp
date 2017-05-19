@@ -42,10 +42,8 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         <ul class="title-area large-3 medium-4 rows">
             <li class="name">
                 <h1>
-                <a href="http://sfsuse.com/~sp17g11/">
-
-                    <img src="http://sfsuse.com/~sp17g11/img/homepageLogo.png" class="photos" height="500" width="200"  >
-
+                <a href="http://sfsuse.com/~jscandly">
+                    <img src="http://sfsuse.com/~sp17g11/GatorList/img/homepageLogo.png" class="photos"  >
                 </a>
                 </h1>
             </li>
@@ -58,24 +56,36 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         <div class="top-bar-section">
             <ul class="left">
                 
-                <li><a href="http://sfsuse.com/~sp17g11/items/add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sell &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-             
+                
+                <li><a href="http://sfsuse.com/~sp17g11/GatorList/items/add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sell&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                 
                 
                 <li>
                 <form action="" method="post">
                     <select name="category" style="width: 100px;">
-                    <option value="1|2|3|4" >All</option>
-                    <option value="1" >Electronics</option>
-                    <option value="3" >Furniture</option>
-                    <option value="2" >Books</option>
+                         <?php foreach ($items as $item): ?> <?php $cat = $item->category_id ?> <?php if($cat == 1 ) echo 'selected' ; ?><?php endforeach; ?> 
+                    <option value="5" >All</option>
                     <option value="4" >Apparel</option>
+                    <option value="3" >Books</option>
+                    <option value="1" >Electronics</option>
+                    <option value="2" >Furniture</option>
+                    </select> 
+                </li>
+                    <li><input size="30" type ="text" name="submit"/></li> 
+                   <?php echo $this->Html->link("Submit", array('controller' => 'items','action'=> 'index'), array( 'class' => 'button')); ?> 
+                        </form>
                     
-                    </select> </li>
-             <li><input style="max-width:300px;" size="30" type ="text" name="submit"/></li>
-             <button type="submit">Search</button>
-             
-        </form>
-           
+                    
+                    
+          <!-- <?= $this->Form->create(); ?>
+                    <fieldset>
+                    <?php
+                        echo '<li>'. $this->Form->control('', ['options' => $category], array('name'=>'category')) .'</li>';
+                        echo '<li>'. $this->Form->input('', array('name'=>'submit')).'</li>';
+                        ?> 
+             <?php echo $this->Html->link("Submit", array('controller' => 'items','action'=> 'index'), array( 'class' => 'button')); ?>
+                    </fieldset>
+             <?= $this->Form->end(); ?> -->
              <!-- 
            <form action="" method="post">
                <select name="category">
@@ -93,7 +103,8 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
             <ul class="right">
                	<?php if($loggedIn) : ?>
                 
-                <li> <a href = "http://sfsuse.com/~sp17g11/users/dashboard" >Welcome, <?php $session = $this->request->session();
+               <!-- <li><?= $this->Html->link('Dashboard',['controller' => 'users', 'action' => 'dashboard']); ?></li> -->
+                <li> <a href = "http://sfsuse.com/~jscandly/users/dashboard" >Welcome, <?php $session = $this->request->session();
                                 $user_data = $session->read('Auth.User');
                                     if(!empty($user_data)){
                                        print_r($user_data['username']);
@@ -104,9 +115,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                         <li><?= $this->Html->link('Login', ['controller' => 'users', 'action' => 'login']); ?> </li>     
                         <li><?= $this->Html->link('Register', ['controller' => 'users', 'action' => 'register']); ?></li>
                 <?php endif; ?>
-                        <li><a href="http://sfsuse.com/~sp17g11/about">About Us</a> </li>
-
-		 
+		  <li><a href="http://sfsuse.com/~jscandly/about">About Us</a> </li>
             </ul>
         </div>
     </nav>
@@ -115,12 +124,6 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         <?= $this->fetch('content') ?>
     </div>
     <footer>
- 
-    </div>
-    <div class="top-bar expanded" data-topbar role="footer"><a href="http://sfsuse.com/~sp17g11/">Privacy Policy</a> <span><a class="middle" style="text-align="center" vertical-allign="middle" >SFSU Software Engineering Project &#169; Spring 2017 For Demonstration Only</a></span> <a class="right" href="http://sfsuse.com/~sp17g11/">Terms of Use</a></div>
-    </div>
-
-        
     </footer>
     
     

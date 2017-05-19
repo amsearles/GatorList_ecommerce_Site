@@ -19,46 +19,31 @@ class ItemsController extends AppController
      */
     public function index()
     {
-            $categorys = $this->Items->Categorys->find('list', ['limit' => 200]);
-       $this->set(compact('item', 'categorys'));
-    
+       
         //paginate items even if no search yet.
         $items = $this->paginate($this->Items);
-	    
-	     $items = $this->Items
-        // Use the plugins 'search' custom finder and pass in the
-        // processed query params
-        ->find('search', ['search' => $this->request->query])
-              
-        // You can add extra things to the query if you need to
-        //->contain(['description'])
-        ->where(['title IS NOT' => null]);
-        $this->set('items', $this->paginate($items));
-        
+        $category = $this->Items->Categorys->find('list', ['limit' => 200]);
         //the form in /Items/index.ctp is a post request
-     /*   if($this->request->is('post')){
+        if($this->request->is('post')){
             //print_r($this->request->data);
             //how we query database for anything like the input field in our form.
             // we called the form input field submit
-                    $categories = $_POST['category'];
-                    $exp_cat = explode("|", $categories);
-                    $item = $this->Items->find()->where(['title LIKE'=>'%'.
-                    $this->request->data["submit"] .'%'])->orWhere(['description LIKE'=>'%'. 
-                    $this->request->data["submit"] .'%'])->where(['category_id IN'=>$exp_cat]);
             
+            $item = $this->Items->find()->where(['title LIKE'=>'%'. 
+                    $this->request->data["submit"] .'%'])->where(['category_id'=>    
+		    $this->request->data["category"]]);
             //pagination is important for dynamic number of search results
+            //echo $item;
             $items = $this->paginate($item);
             
         }
-	*
-	*/
         
-        $this->set(compact('items'));
+        $this->set(compact('items', 'category'));
         $this->set('_serialize', ['items']);
         
         
     }
-	public function index2()
+    public function index2()
     {
        
         //paginate items even if no search yet.
@@ -85,15 +70,6 @@ class ItemsController extends AppController
         
         
     }
-	
-	  public function initialize()
-{
-    parent::initialize();
-    $this->loadComponent('Search.Prg', [
-      //specify which action you want search to work in
-        'actions' => ['index','view']
-    ]);
-}
 
     /**
      * View method
@@ -189,22 +165,23 @@ class ItemsController extends AppController
     }
 
 	public function beforeFilter(Event $event){
-        $this->Auth->allow(['index', 'view', 'index2']);
-        $user_id = $this->Auth->user('id');
-        $this->set(compact('item', 'user_id'));
-    }
+		$this->Auth->allow(['index', 'view', 'index2']);
+                $user_id = $this->Auth->user('id');
+                $this->set(compact('item', 'user_id'));
+	}
         
-    public function isAuthorized($user){
-        $action = $this->request->getParam('action');
+        public function isAuthorized($user)
+        {
+              $action = $this->request->getParam('action');
 
         // The add and index actions are always allowed.
-            if (in_array($action, ['index', 'view', 'add', 'delete', 'edit'])) {
-                return true;
-            }
+                if (in_array($action, ['index', 'view', 'add', 'delete', 'edit','index2'])) {
+            return true;
+        }
         // All other actions require an id.
-            if (!$this->request->getParam('pass.0')) {
-                return false;
-            }
+         if (!$this->request->getParam('pass.0')) {
+            return false;
+         }
 
         // Check that the bookmark belongs to the current user.
         $id = $this->request->getParam('pass.0');

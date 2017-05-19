@@ -39,9 +39,14 @@ class UsersTable extends Table
         $this->hasMany('Items', [
             'foreignKey' => 'user_id'
         ]);
+        
         $this->hasMany('Messages', [
-            'foreignKey' => 'user_id'
+           'foreignKey' => 'user_id'
+            //'foreignKey2' => 'sender_id'
+            
         ]);
+         
+        
     }
 
     /**
@@ -60,13 +65,9 @@ class UsersTable extends Table
             ->requirePresence('username', 'create')
             ->notEmpty('username');
 
-       ///^.+@sfsu\.com$/i
         $validator
-            ->requirePresence('email')
-                ->add('email','required',['rule'=>['email'],
-                        'message' => "Email must contain @sfsu.com"]
-                        )
-            ->notEmpty('email');
+            ->email('email')
+            ->allowEmpty('email');
 
         $validator
             ->requirePresence('password', 'create')
@@ -77,11 +78,6 @@ class UsersTable extends Table
             ->allowEmpty('create_time');
 
         return $validator;
-    }
-     public function email($check){
-        $value = array_values($check);
-        $value = $value[0];
-        return preg_match('sfsu',$value);
     }
 
     /**

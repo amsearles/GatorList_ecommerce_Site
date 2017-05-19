@@ -5,24 +5,19 @@
 ?>
 
 <div class="items form large-9 medium-8 columns content">
-    <?= $this->Form->create($item) ?>
-    <fieldset style = "margin-left:500px">
-        <legend><?= __('Sell Item') ?></legend>
+    <?= $this->Form->create($item, ['type' => 'file']) ?>
+    <fieldset>
+        <legend><?= __('Add Item') ?></legend>
         <?php
-             echo $this->Form->hidden('user_id', array('value'=>$user_id)) ;
-            echo $this->Form->control('title', array('style'=> 'width:300px; height:35px'));
-            echo $this->Form->control('category_id', array('options' => $categorys, 'style'=> 'width:300px; height:35px'));           
-            echo $this->Form->control('price', array('style'=> 'width:300px; height:35px'));
-            echo $this->Form->control('description', array('style'=> 'width:300px; height:100px'));
+            echo $this->Form->hidden('user_id', array('value'=>$user_id)) ;
+            echo $this->Form->control('title');
+            echo $this->Form->control('description');
             echo $this->Form->control('photo', ['type' => 'file']);
-             echo $this->Form->control('photo_dir', array('type' => 'hidden'));
-
+            echo $this->Form->control('category_id', ['options' => $categorys]);
+            echo $this->Form->control('photo_dir', array('type' => 'hidden'));
+            echo $this->Form->control('price');
         ?>
     </fieldset>
-    
     <?= $this->Form->button(__('Post')) ?>
     <?= $this->Form->end() ?>
-   <?php 
-     echo $this->Html->link('CANCEL', '/items', array('class' => 'button')); 
-   ?>
 </div>

@@ -12,11 +12,11 @@ a {
 }
 
 .side-nav li a:not(.button) {
-    color: ##800080;
+    color: #15848F;
 }
 
 .side-nav li a:not(.button):hover {
-    color: ##800080;
+    color: #15848F;
 }
 
 header {
@@ -385,28 +385,32 @@ table tr:nth-of-type(even) {
 fieldset {
     border: none;
     padding: 1.25rem;
-    
+    margin: 1.125rem 0;
 }
 
 fieldset legend {
     border-bottom: 2px solid #1798A5;
-    width: 300px;
+    width: 100%;
     line-height: 2rem;
 }
 
 .form button[type="submit"] {
-    float:right;
+    float: right;
     text-transform: uppercase;
     box-shadow: none;
 }
 
+
 .form button:hover, .form button:focus {
-    background: ##800080;
+    background: #BE840B;
     box-shadow: none;
 }
 
+
+
 button {
-    background: ##800080;
+    background: #966600;
+    
 }
 
 div.message {
@@ -522,7 +526,4 @@ div.message.hidden {
 table td {
     vertical-align: top;
     word-break: break-all;
-}
-.txtArea { 
-width:600px; height:500px; 
 }

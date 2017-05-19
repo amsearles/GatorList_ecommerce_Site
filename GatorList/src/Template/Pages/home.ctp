@@ -37,9 +37,10 @@
     </div>
 	<section>
 		<div class="container">
-			<div class="middle" style="text-align: center">	
+			<div class="left" style="text-align: center">	
+                            <h1> Team 11 - 648 Software Engineering Project - Spring 17</h1>
                             <a href="index.php">
-                                                <img src="./img/GatorlistMainLogo.png" class="personal_page_photos" height="1000" width="500" align="center" ></a>
+                                                <img src="./img/programming.gif" class="personal_page_photos"  ></a>
 				
 		
                   	</div>

@@ -208,17 +208,17 @@ Type::build('timestamp')
  * Uncomment one of the lines below, as you need. make sure you read the documentation on Plugin to use more
  * advanced ways of loading plugins
  *
- * Plugin::loadAll(); // Loads all plugins at once
+ * 
  * Plugin::load('Migrations'); //Loads a single plugin named Migrations
  *
  */
-//Plugin::loadAll(); // Loads all plugins at once
-//Plugin::load('Proffer');
+Plugin::loadAll(); // Loads all plugins at once
+Plugin::load('Proffer');
 /*
  * Only try to load DebugKit in development mode
  * Debug Kit should not be installed on a production system
  */
-Plugin::load('Search');
 if (Configure::read('debug')) {
     Plugin::load('DebugKit', ['bootstrap' => true]);
 }
+

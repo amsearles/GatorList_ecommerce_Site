@@ -1,48 +1,4 @@
 <?php
-$name = "";
-$nameErr = "";
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  if (empty($_POST["name"])) {
-    $nameErr = "Name is required";
-  } else {
-    $name = test_input($_POST["name"]);
-    // check if name only contains letters and whitespace
-    if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
-      $nameErr = "Only letters and white space allowed"; 
-    }
-  }
-}
-
-/**
-  * @var \App\View\AppView $this
-  */
-
-   /*    
- echo $this->Form->create();   
- // You'll need to populate $authors in the template from your controller
-    echo $this->Form->input('id');
-    // Match the search param in your table configuration
-       echo $this->Form->input('q');
-       
-   $items = $this->Form->control('title');
-    echo $this->Form->button('Filter',['type' => 'submit']);
-  
- 
- echo $this->Form->input('q');
-  echo $this->Form->button('Filter', ['type' => 'submit']);
-  echo $this->Html->link('Reset', ['action' => '?q=']);
-    echo $this->Form->end();
-    * 
-    */
-?>
-<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
-  Search: <input type="text" name="search" value="<?php echo $name;?>">
-
-  <br><br>
-   <input type="submit" >  
-</form>
-
-<?php
 /**
   * @var \App\View\AppView $this
   */
@@ -53,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <table class="vertical-table">
         <tr>
             <th scope="row"><?= __('User') ?></th>
-            <td><?= $item->has('user') ? $this->Html->link($item->user->id, ['controller' => 'Users', 'action' => 'view', $item->user->id]) : '' ?></td>
+            <td><?= $item->has('user') ? $this->Html->link($item->user->username, ['controller' => 'Users', 'action' => 'view', $item->user->id]) : '' ?></td>
         </tr>
         <tr>
             <th scope="row"><?= __('Title') ?></th>

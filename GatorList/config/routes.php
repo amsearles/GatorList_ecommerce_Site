@@ -49,15 +49,17 @@ Router::scope('/', function (RouteBuilder $routes) {
      * its action called 'display', and we pass a param to select the view file
      * to use (in this case, src/Template/Pages/home.ctp)...
      */
-    //$routes->connect('/', ['controller' => 'Items', 'action' => 'index']);
-    // $routes->connect('/', ['controller' => 'Pages', 'action' => 'display', 'home']);
- $routes->connect('/', ['controller' => 'Items', 'action' => 'index2']);
-$routes->connect('/about', ['controller' => 'Pages', 'action' => 'display','about']);
+    //$routes->connect('/', ['controller' => 'Pages', 'action' => 'display', 'home']);
+    $routes->connect('/', ['controller' => 'Items', 'action' => 'index2']);
     /**
      * ...and connect the rest of 'Pages' controller's URLs.
      */
+    $routes->connect('/about', ['controller' => 'Pages', 'action' => 'display','about']);
     $routes->connect('/pages/*', ['controller' => 'Pages', 'action' => 'display']);
-
+    $routes->connect('/users/reply/:sender_id',
+  ['controller' => 'users', 'action' => 'reply'],
+  ['pass' => ['sender_id']]
+);
     /**
      * Connect catchall routes for all controllers.
      *

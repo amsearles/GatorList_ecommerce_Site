@@ -1,47 +1,8 @@
 <?php
-//echo $this->Form->input('category_id', array('empty'=>'All','options' => $categorys,'style'=> 'width:300px; height:35px'));
-$name = "";
-$nameErr = "";
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  if (empty($_POST["name"])) {
-    $nameErr = "Name is required";
-  } else {
-    $name = test_input($_POST["name"]);
-    // check if name only contains letters and whitespace
-    if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
-      $nameErr = "Only letters and white space allowed"; 
-    }
-  }
-}
-
 /**
   * @var \App\View\AppView $this
   */
-
-   /*    
- echo $this->Form->create();   
- // You'll need to populate $authors in the template from your controller
-    echo $this->Form->input('id');
-    // Match the search param in your table configuration
-       echo $this->Form->input('q');
-       
-   $items = $this->Form->control('title');
-    echo $this->Form->button('Filter',['type' => 'submit']);
-  
- 
- echo $this->Form->input('q');
-  echo $this->Form->button('Filter', ['type' => 'submit']);
-  echo $this->Html->link('Reset', ['action' => '?q=']);
-    echo $this->Form->end();
-    * 
-    */
 ?>
-<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
-  Search: <input type="text" name="search" value="<?php echo $name;?>">
-
-  <br><br>
-   <input type="submit" >  
-</form>
 <style>
 body {font-family: "Lato", sans-serif;}
 
@@ -107,10 +68,11 @@ div.tab button.active {
         <h3>Messages</h3>
         <table cellpadding="0" cellspacing="0">
         <tr>
-                <th scope="col"><?= $this->Paginator->sort('id') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('username') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('id') ?></th>
+                 <th scope="col"><?= $this->Paginator->sort('id') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('recipient') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('sender') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('message') ?></th>
+                <th scope="col"><?= __('Reply') ?></th>
                
             </tr>
             <tbody>
@@ -120,7 +82,7 @@ div.tab button.active {
             <?php foreach ($message->messages as $message): ?>
            
             <tr>
-            <td><?= h($message->item_id) ?></td>
+                <td><?= h($message->item_id) ?></td>
                 <td><?php foreach($userids as $use):
                 if($use->id == $message->user_id){echo $use->username;} 
                 endforeach; ?></td>
@@ -129,6 +91,9 @@ div.tab button.active {
                 endforeach;?></td>
                 
                 <td><?= h($message->message) ?></td>
+                <td class="actions"> 
+                <?= $this->Html->link(__('Send Message'), ['controller' => 'users', 'action' => 'reply', $message->item_id, 'sender_id' => $message->sender_id]) ?>
+                </td>
 
             </tr>
             <?php endforeach; ?>
@@ -145,7 +110,7 @@ div.tab button.active {
             <?php foreach ($messages as $mess): ?>
             <table cellpadding="0" cellspacing="0">
                 <tr>
-                <td><?php echo $mess->item_id ?></td>
+                    <td><?php echo $mess->item_id ?></td>
                 <td> <?php foreach ($userids as $use): 
                     if($use->id == $mess->user_id){echo $use->username;}
                     endforeach;
@@ -157,6 +122,10 @@ div.tab button.active {
         
                 
                 <td> <?= h($mess->message) ?></td>
+                
+                <td class="actions">
+                    <?= $this->Html->link(__('Send Message'), ['controller' => 'users', 'action' => 'send', $mess->item_id, $mess->sender_id]) ?>
+                </td>
                 </tr>
             
             </table>
@@ -169,7 +138,7 @@ div.tab button.active {
     <div id="Items" class="tabcontent">
         <h3>Items</h3>
         <p><div class="related">
-        
+        <h4><?= __('Related Items') ?></h4>
         <?php if (!empty($user->items)): ?>
         <table cellpadding="0" cellspacing="0">
             <tr>

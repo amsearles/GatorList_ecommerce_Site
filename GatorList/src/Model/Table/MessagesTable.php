@@ -39,11 +39,15 @@ class MessagesTable extends Table
         $this->setPrimaryKey('id');
 
         //$this->addBehavior('Timestamp');
-
-        $this->belongsTo('Users', [
+        
+      $this->belongsTo('Users', [
             'foreignKey' => 'user_id',
-            'joinType' => 'INNER'
+            //'foreignKey2' => 'user_id',
+            //'joinType' => 'INNER'
         ]);
+      
+      
+        
     }
 
     

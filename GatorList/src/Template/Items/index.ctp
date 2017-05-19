@@ -3,20 +3,6 @@
 /**
   * @var \App\View\AppView $this
   */
- echo $this->Form->create();
-    // You'll need to populate $authors in the template from your controller
-   
-    // Match the search param in your table configuration
-  //echo $this->Form->input('category_id',);
- echo $this->Form->create();
-
-  echo $this->Form->input('category_id', array('empty'=>'All','options' => $categorys,'style'=> 'width:300px; height:35px'));
-    echo $this->Form->input('search');
-    echo $this->Form->button('Search', ['type' => 'submit']);
-    echo $this->Html->link('Reset', ['action' => 'index']);
-    
-    
-    echo $this->Form->end();
 ?>
 
 <div class="items index large-9 medium-8 columns content">
@@ -51,11 +37,12 @@
     
     -->
     <!--this is where we set up the structure for our results -->
+    
     <h3><?= __('Items') ?></h3>
     <table cellpadding="0" cellspacing="0">
         <thead>
             <tr>
-                <th scope="col"><?= $this->Paginator->sort('id') ?></th>
+                
                
                 <th scope="col"><?= $this->Paginator->sort('title') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('description') ?></th>
@@ -66,17 +53,20 @@
             </tr>
         </thead>
         <tbody>
+            
             <!--this is where we loop through our index() that stores $items. notice photos are stored in file-dir but path in MySQL -->
             <?php foreach ($items as $item): ?>
             <tr>
-                <td><?= $this->Number->format($item->id) ?></td>
+                
                 <td><?= h($item->title) ?></td>
                 <td><?= h($item->description) ?></td>
-               
                 <td><!--<?= $item->photo ?> --><?= $item->photo ?><?php echo $this->Html->image('items/photo/file/'.'square_'.$item->photo); ?></a></td>
                
+                
+                <!-- <td><?= $item->photo ?><?php echo $this->Html->image('items/photo/file/'.'square_'.$item->photo); ?></a></td> -->
+               
                 <td><?= h($item->category_id) ?></td> 
-                <td>$<?= h($item->price) ?></td> 
+                <td>$ <?= h($item->price) ?></td> 
                 <td class="actions">
                     <?= $this->Html->link(__('View'), ['action' => 'view', $item->id]) ?>
                     <?= $this->Html->link(__('Send Message'), ['controller' => 'users', 'action' => 'send', $item->id]) ?>

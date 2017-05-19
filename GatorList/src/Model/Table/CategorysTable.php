@@ -9,7 +9,7 @@ class CategorysTable extends Table
     public function initialize(array $config)
     {
         $this->setTable('categories');
-        $this->setDisplayField('category');
+
         $this->setPrimaryKey('category_id');
         
         $this->hasMany('Items', [
