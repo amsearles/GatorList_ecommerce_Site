@@ -12,11 +12,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
   }
 }
-
 /**
   * @var \App\View\AppView $this
   */
-
    /*    
  echo $this->Form->create();   
  // You'll need to populate $authors in the template from your controller
@@ -35,12 +33,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     * 
     */
 ?>
-<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
-  Search: <input type="text" name="search" value="<?php echo $name;?>">
-
-  <br><br>
-   <input type="submit" >  
-</form>
+<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
+                    <select name="category_id" style="width: 100px;">
+                    <option value="" >All</option>
+                    <option value="1" >Electronics</option>
+                    <option value="3" >Furniture</option>
+                    <option value="2" >Books</option>
+                    <option value="4" >Apparel</option>
+                    
+                    </select> </li>
+             <li><input size="30" type ="text" name="search" /></li>
+             <button type="submit">Search</button>
+             
+        </form>
 
 <?php
 /**
