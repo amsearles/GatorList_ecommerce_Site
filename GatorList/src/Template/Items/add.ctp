@@ -9,6 +9,7 @@
     <fieldset style = "margin-left:500px">
         <legend><?= __('Sell Item') ?></legend>
         <?php
+            echo $this->Form->hidden('user_id', array('value'=>$user_id));
             echo $this->Form->control('title', array('style'=> 'width:300px; height:35px'));
             echo $this->Form->control('category_id', array('options' => $categorys, 'style'=> 'width:300px; height:35px'));           
             echo $this->Form->control('price', array('style'=> 'width:300px; height:35px'));
