@@ -60,11 +60,13 @@ class UsersTable extends Table
             ->requirePresence('username', 'create')
             ->notEmpty('username');
 
-       ///^.+@sfsu\.com$/i
-        $validator
-            ->requirePresence('email')
-                ->add('email','required',['rule'=>['email'],
-                        'message' => "Email must contain @sfsu.com"]
+       //slight fix for email :D
+        $validator->add('email',['validate'=>
+    
+    ['rule'=>'validate',
+        'provider'=>'table',
+                        'message' => "Email must be an sfsu email"]
+    ]
                         )
             ->notEmpty('email');
 
@@ -83,6 +85,16 @@ class UsersTable extends Table
         $value = $value[0];
         return preg_match('sfsu',$value);
     }
+     public function validate($email)
+{
+  if (!preg_match('/^([a-z0-9\+\_\-\.]+)@([a-z0-9\+\_\-\.]{2,})(\.[a-z]{2,4})$/i', $email)) return false;
+
+  $domains = array('gmail.com','yahoo.com','hotmail.com','outlook.com','inbox.com','mail.com','aol.com'
+                   ,'att.net','comcast.net', 'facebook.com'
+      );
+  list(, $email_domain) = explode('@', $email, 2);
+  return !in_array($email_domain, $domains);
+}
 
     /**
      * Returns a rules checker object that will be used for validating
